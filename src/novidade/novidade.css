@@ -1,0 +1,36 @@
+.Nov :hover{
+    color: rgb(204, 12, 12);
+}
+.Nov p{
+    height: 35px;
+    background-color: rgb(31 41 82);    
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.Nov{
+    height: 35px;
+    background-color: rgb(31 41 82);    
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.Novdesc{
+    height: 35px;
+    background-color: rgb(182, 180, 180);
+    font-size: 18px;
+    text-align: center;
+
+} 
+
+.marque_novdade{
+    text-align: center;
+    justify-items: center;
+}
+.marque_novdade a{
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}

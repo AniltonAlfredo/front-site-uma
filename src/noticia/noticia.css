@@ -1,0 +1,65 @@
+.ContainerNoticia{
+    padding: 30px;     
+    display: flex;
+    text-align: center;
+    place-content: center;
+}
+.ContainerNoticia h3{
+    padding: 20px;
+}
+
+.ContainerNoticia img{    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.ContainerNoticia p{    
+    text-align: justify;
+}
+.RowNot{
+    display: flex;
+    text-align: center;
+    place-content: center;
+}
+.TextoNoticia{
+    text-align: justify;
+}
+.NotDesc{
+    text-align: center;
+}
+.NotDesc p{
+    text-align: justify;
+}
+.ColDestaque{
+    padding: 20px;
+    text-align: center;
+}
+.DestaqueStyle{       
+    text-align: center;
+}
+.DestaqueStyle h1{       
+    padding: 30px;
+}
+.DestaqueStyle h5{       
+    padding: 10px;
+    color: black;
+    font-style: initial;
+}
+.DestaqueStyle h5:hover{    
+    color: rgb(255, 0, 0);
+    font-style: initial;
+}
+.NotPag h1{
+ padding: 20px;
+ text-align: center;
+}
+.NotGeral {
+    text-align: center;
+}
+.NotGeral h5{
+    color: black;
+}
+.NotGeral h5:hover{
+    color: rgb(241, 7, 7);
+}

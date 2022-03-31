@@ -1,0 +1,17 @@
+.ContainerFaculdade{
+    background-image: url(../faculdades/fundoFaculdade.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.ContainerInterno{
+    padding: 50px;
+}
+.LogoImagem{
+    padding-left: 15px ;
+    padding-right: 15px ;
+}

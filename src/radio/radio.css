@@ -1,0 +1,9 @@
+.rowradio{
+    display: flex;
+    text-align: center;
+    place-content: center;
+}
+
+.RadioStyle h1,h6{
+    text-align: center;
+}

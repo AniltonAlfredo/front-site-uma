@@ -1,0 +1,21 @@
+.ContainerBack{
+    background-image: url(../dadosEst/dadosBack.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ContainerDados{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: white;
+    padding: 30px;
+    background-color: rgba(104, 107, 109, 0.582);
+}
+
+.ContainerDados p{
+    font-size: 28px;
+}

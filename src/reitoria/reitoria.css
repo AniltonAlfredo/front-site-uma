@@ -1,0 +1,14 @@
+.PerfilReitoria{
+
+}
+.PerfilReitoria p{
+    font-size: 23px;
+    text-align: justify;
+}
+.PerfilReitoria h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.ImgStyle{
+    height: min-content;
+}

@@ -1,0 +1,28 @@
+.ContainerEvento{
+    padding: 20px;
+}
+.evento{
+    display: flex;
+    text-align: center;
+    place-content: center;
+    padding-bottom: 20px;
+}
+.TextoEvento{
+    text-align: justify;
+}
+
+.EventoHeader{    
+    background-color: rgb(165, 142, 115);
+    text-align: center;
+    padding: 0;
+}
+.EventoHeader span{
+    font-size: 80px;
+}
+.EventoHeader p{
+    font-size: 20px;
+}
+.EventoHeader h5{
+    font-size: 20px;
+    padding: 0px;
+}

@@ -1,0 +1,85 @@
+.Navegacacao{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+}
+
+.Navegacacao ul{
+    padding-left: 0;
+}
+
+.Navegacacao li{
+    list-style: none;
+}
+.Navegacacao a{
+   text-decoration: none;
+   color: #fff;
+}
+.Navegacacao a:hover{
+   
+    color: #0a58ca;
+ }
+
+.Navegacacao_titulo{
+    text-decoration: none;
+}
+
+.Contactos{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+}
+.Contactos h3{    
+    text-align: center;
+
+}
+
+.Contactos ul{
+    padding-left: 0;
+}
+
+.Contactos li{
+    list-style: none;
+}
+.Contactos a{
+   text-decoration: none;
+}
+
+
+.LogoMarca{
+    text-align: center;
+    width: 290px;
+}
+
+.Direitos{
+    margin: 0px;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    text-align: center;
+    padding:10px;
+}
+.ContainerRodape{
+    background-color: rgb(32, 32, 51);
+    padding: 4rem;
+}
+
+.email{
+    width: 30px;
+    height: 30px;
+    background-image: url("../assets/email.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.RowStyle{
+    display: flex;
+    text-align: center;
+    place-content: center;
+}
