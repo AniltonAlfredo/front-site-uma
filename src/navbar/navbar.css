@@ -21,7 +21,11 @@
     
 }
 .LinkStyle:hover{   
-    color: rgb(68, 5, 5); 
+    color: rgb(101, 26, 163); 
+
+}
+.gf{   
+  color: rgb(0, 0, 0); 
 
 }
 .LinkStyle:focus{   
@@ -31,6 +35,9 @@
 .ItemStyle:hover {
     background-color: rgb(179, 175, 175);
 }
+
+
+
 /**
 * Template Name: Tempo - v4.1.0
 * Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/

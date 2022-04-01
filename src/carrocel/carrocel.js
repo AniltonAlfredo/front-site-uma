@@ -2,7 +2,7 @@ import React from 'react'
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
 import img1 from '../assets/banner-universidade-pra-você.jpg'
-import img2 from '../assets/Banner-Libertação.jpg'
+// import img2 from '../assets/Banner-Libertação.jpg'
 import img3 from '../assets/Banner-covid.jpg'
 import img4 from '../assets/banner-recrutamento-docentes.jpg'
 // import img5 from '../assets/banner-mulher-angolana.jpg'
@@ -13,13 +13,13 @@ function Carrocel() {
     return (    
       <Carousel>
         
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src={img2}
             alt="Second slide"
           />
-        </Carousel.Item>
+        </Carousel.Item> */}
 
         <Carousel.Item>
                   <a target="_blank" href="https://forms.gle/k65AYDEFXCpHEQzr6">

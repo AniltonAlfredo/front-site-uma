@@ -37,6 +37,7 @@ import NoticiaPage from './noticia/noticiaPage';
 import NoticiaDescricao from './noticia/noticiaDescricao';
 import FaculdadeDescricao from './faculdade/faculdadeDescricao';
 import EventoDescricao from './evento/eventoDescricao';
+import PosGraduacao from './posGraduacao/posgraduacao';
 
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
           <Route path="/faculdade2" element={<Faculdade2/>} />
           <Route path="/faculdade3" element={<Faculdade3/>} />
           <Route path="/faculdade4" element={<Faculdade4/>} />
+          <Route path="/posgraduacao" element={<PosGraduacao/>} />
         </Routes>
         <Rodape/>
         <Direitos/>
