@@ -58,8 +58,12 @@ function NavBar() {
                 {/* <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
               </NavDropdown>
+              
               <NavDropdown title="Administrativo" id="basic-nav-dropdown">
-                <NavDropdown.Item target="_blank" href="http://mutue.co.ao/mutue/faces/login.xhtml"  className="LinkStyle">Gestão Académica</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="http://mutue.co.ao/mutue/faces/login.xhtml"  className="LinkStyle">
+                  Gestão Académica
+                  </NavDropdown.Item>
+
                 <NavDropdown.Item target="_blank" href="http://gestaodepessoas.mutue.ao/"  className="gf">Gestão de Pessoas</NavDropdown.Item>
                 {/* <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}

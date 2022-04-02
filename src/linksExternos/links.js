@@ -2,7 +2,7 @@ import React from 'react'
 import {  Container, Row, Col } from 'react-bootstrap';
 import  './links.css'
 import kairos from './kairos.jpg'
-
+import emm from './Escola.png'
 
 
 function Links() {
@@ -34,7 +34,7 @@ function Links() {
                 <Col md="3" className="Links">
                     <a target="_blank" href="https://escoladamissao.ao/">
                         <div >
-                            <img src="http://caderneta.escoladamissao.ao/assets/portal/img/logotipo.png" alt="EMM" width="200"/>
+                            <img src={emm} alt="EMM" width="200"/>
                         </div>
                     </a> 
                 </Col>
