@@ -25,9 +25,9 @@ function Links() {
                 
                 </Col>
                 <Col md="3" className="Links">
-                    <a target="_blank" href="https://www.africau.ac.zw//">
+                    <a target="_blank" href="http://www.africau.edu/">
                         <div >
-                            <img src="https://www.africau.ac.zw/images/logo.png" alt="Africa University" width="200"/>
+                            <img src="http://www.africau.edu/images/AU-Logo-trans-bckgr.png" alt="Africa University" width="200"/>
                         </div>
                     </a> 
                 </Col >
