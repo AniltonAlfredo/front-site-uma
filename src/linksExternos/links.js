@@ -32,7 +32,7 @@ function Links() {
                     </a> 
                 </Col >
                 <Col md="3" className="Links">
-                    <a target="_blank" href="https://escoladamissao.ao/">
+                    <a target="_blank" href="https://escoladamissao.co.ao/">
                         <div >
                             <img src={emm} alt="EMM" width="200"/>
                         </div>
