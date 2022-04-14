@@ -19,7 +19,7 @@ function Rodape() {
                     <ul>
                         <li><Link to="/historial">Historial</Link></li>
                         <li><Link to="/reitoria">Reitoria</Link></li>
-                        <li><a target="_blank" href="https://escoladamissao.ao/">Escola da Missão Metodista</a></li>                                
+                        <li><a target="_blank" href="https://escoladamissao.co.ao/">Escola da Missão Metodista</a></li>                                
                         <li><a target="_blank" href="https://mutue.ao/register">Inscrições</a></li>
                         <li><a target="_blank" href="https://mutue.ao/login">Matrículas</a></li>
                     </ul>

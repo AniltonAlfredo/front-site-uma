@@ -9,7 +9,7 @@ const News = () => {
     const [news, setNews] = useState([]);
 
     const fecthNews = () => {
-        axios.get("http://localhost:8080/noticia/destaques").then(res=>{
+        axios.get("http://196.249.246.165:8080/noticia/destaques").then(res=>{
             console.log(res);
             setNews(res.data.content);
             

@@ -9,7 +9,7 @@ const _9dades = () => {
     const [news, setNews] = useState([]);
 
     const fecthNews = () => {
-        axios.get("http://localhost:8080/noticia/listLast5").then(res=>{
+        axios.get("http://196.249.246.165:8080/noticia/listLast5").then(res=>{
             console.log(res);
             setNews(res.data.content);
     })
