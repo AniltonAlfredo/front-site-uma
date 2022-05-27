@@ -57,7 +57,7 @@ Na área da Biotecnologia como investigador e técnico nos Laboratórios, da ind
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>

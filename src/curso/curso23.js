@@ -55,7 +55,7 @@ const Curso1 = () => {
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    {/* <Image className="cursoImg" src={imagem} /> */}
                 </Col>
                 </Row>
             </Container>

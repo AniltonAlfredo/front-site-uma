@@ -53,7 +53,7 @@ O laboratório de Enfermagem é um espaço de aprendizagem com infra-estrutura e
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>

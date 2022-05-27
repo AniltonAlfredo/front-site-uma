@@ -2,7 +2,7 @@ import React from 'react'
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
 import img1 from '../assets/banner-universidade-pra-você.jpg'
-import img2 from '../assets/Banner--4-de-Abril-1.jpg'
+import img2 from '../assets/MutueMobile-bannersite.jpg'
 import img3 from '../assets/Banner-covid.jpg'
 import img4 from '../assets/banner-recrutamento-docentes.jpg'
 // import img5 from '../assets/banner-mulher-angolana.jpg'

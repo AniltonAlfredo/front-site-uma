@@ -18,7 +18,7 @@ const Faculdade2 = () => {
                 <Row>
                     <Col md="8">
                         <p className='pfacul'>
-                        A Faculdade de Ciências Jurídicas e Socias oferece um ensino superior de qualidade 
+                        A Faculdade de Ciências Jurídicas e Sociais oferece um ensino superior de qualidade 
                         centrado no estudante. Distingue-se pela sua habilidade de renovação e pelo seu modelo 
                         académico diferenciador que está reforçado nos princípios da qualidade, da internacionalização
                          e da aproximação às empresa e o mercado de trabalho. Confere graus académicos de licenciatura

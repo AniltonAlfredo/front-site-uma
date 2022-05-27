@@ -55,7 +55,7 @@ actividade inerentes à Engenharia Eléctrica
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>

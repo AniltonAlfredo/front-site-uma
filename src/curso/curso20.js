@@ -54,7 +54,7 @@ Confere ao teólogo, competência Bíblica, Sociológica, Psicológica, Filosóf
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>

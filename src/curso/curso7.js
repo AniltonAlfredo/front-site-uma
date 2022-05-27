@@ -57,7 +57,7 @@ Com uma formação marcadamente prática e experimental. O engenheiro mecatróni
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>

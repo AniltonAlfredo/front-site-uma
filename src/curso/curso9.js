@@ -53,7 +53,7 @@ sectores da vida socioeconómica, sobretudo em programação e produção cultur
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>

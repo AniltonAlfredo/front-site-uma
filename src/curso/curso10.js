@@ -53,7 +53,7 @@ de desenvolvimento turístico, de modo a que os profissionais aqui formados seja
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>

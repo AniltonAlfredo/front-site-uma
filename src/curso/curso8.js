@@ -54,7 +54,7 @@ planeamento e controle de gestão e marketing.
 
                 <Row>
                 <Col md="6" >
-                    <Image className="cursoImg" src={imagem} />
+                    
                 </Col>
                 </Row>
             </Container>
