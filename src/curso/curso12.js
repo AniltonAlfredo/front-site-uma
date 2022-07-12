@@ -1,8 +1,9 @@
 import "./curso.css";
 import { Row, Container, Col, Image, Table } from 'react-bootstrap';
 import imagem from '../assets/703B0201.jpg'
-
-
+import Doc from '../assets/PLANO CURRICULAR/DIREITO PDF.pdf'
+import Doc1 from '../assets/PLANO CURRICULAR/DIR. RAMO JURIDIC.pdf'
+import Doc2 from '../assets/PLANO CURRICULAR/DIR RAM JURID. PUBL. PDF.pdf'
 
 
 const Curso12 = () => {
@@ -43,7 +44,7 @@ const Curso12 = () => {
                                 </tr>
                                 <tr>
                                 <td>Plano Curricular</td>
-                                <td>pdf</td>
+                                <td><a target="_blank" href={Doc}>pdf</a>  |  <a target="_blank" href={Doc1}>Ramo 1</a>  |E  <a target="_blank" href={Doc2}>Ramo 2</a></td>
                                 </tr>
                                 
                             </tbody>

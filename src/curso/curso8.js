@@ -1,7 +1,10 @@
 import "./curso.css";
 import { Row, Container, Col, Image, Table } from 'react-bootstrap';
 import imagem from '../assets/703B0201.jpg'
-
+import Doc from '../assets/PLANO CURRICULAR/AGE.pdf'
+import Doc1 from '../assets/PLANO CURRICULAR/GAE RAM.pdf'
+import Doc2 from '../assets/PLANO CURRICULAR/GAE. RAM GEST.pdf'
+import Doc3 from '../assets/PLANO CURRICULAR/GAE. RAM MARK.pdf'
 
 
 
@@ -44,7 +47,7 @@ planeamento e controle de gestão e marketing.
                                 </tr>
                                 <tr>
                                 <td>Plano Curricular</td>
-                                <td>pdf</td>
+                                <td><a target="_blank" href={Doc}>pdf</a>  |  <a target="_blank" href={Doc1}>Ramo 1</a>  |  <a target="_blank" href={Doc2}>Ramo 2</a>  |  <a target="_blank" href={Doc3}>Ramo 3</a></td>
                                 </tr>
                                 
                             </tbody>

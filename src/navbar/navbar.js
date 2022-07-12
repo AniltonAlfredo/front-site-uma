@@ -4,6 +4,10 @@ import "./navbar.css"
 import { Link } from "react-router-dom";
 
 import LogoHorizontal from '../assets/lgH3c.png'
+import Doc from '../assets/Estatuto e Plano Curricular/uma_regulamento_academico-1.pdf'
+import Doc1 from '../assets/Estatuto e Plano Curricular/EstatutoLV.pdf'
+import Doc2 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO ACADÉMICO REAJUSTADO 2021-2022.pdf'
+import Doc3 from '../assets/Estatuto e Plano Curricular/Calendário Académico 2022-2023  - Interno.pdf'
 
 function NavBar() {
   return (   
@@ -19,8 +23,33 @@ function NavBar() {
                 <NavDropdown.Item className="ItemStyle">
                   <Link className="LinkStyle" to="/historial">Historial</Link>
                 </NavDropdown.Item>
+
                 <NavDropdown.Item className="ItemStyle">
                   <Link className="LinkStyle" to="/reitoria">Reitoria</Link>
+                </NavDropdown.Item>
+
+                {/* <NavDropdown.Item className="ItemStyle">
+                    <li className="dropdown"><Link className="LinkStyle" to="/">Calendário</Link>
+                            <ul>
+                              <li><Link className="LinkStyle" to={Doc2}>Faculdade de Engenharia e Arquitectura</Link></li>
+                              <li><Link className="LinkStyle" to="/faculdade3">Faculdade de Saúde e Bem-Estar</Link></li>
+                            </ul>
+                    </li>
+                </NavDropdown.Item> */}
+
+                <NavDropdown.Item target="_blank" href={Doc2} className="LinkStyle">
+                  Calendário 2021/2022
+                  </NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href={Doc3} className="LinkStyle">
+                  Calendário 2022/2023
+                  </NavDropdown.Item>
+
+                <NavDropdown.Item target="_blank" href={Doc} className="LinkStyle">
+                  Regulamento Académico
+                  </NavDropdown.Item>
+
+                <NavDropdown.Item target="_blank" href={Doc1} className="LinkStyle">
+                Estatutos
                 </NavDropdown.Item>
                 
                 <NavDropdown.Item className="ItemStyle">
@@ -50,7 +79,7 @@ function NavBar() {
                 
               </NavDropdown>
               
-              <Nav.Link >Pastoral</Nav.Link>
+              {/* <Nav.Link >Pastoral</Nav.Link> */}
 
               <NavDropdown title="Estudante" id="basic-nav-dropdown">
                 <NavDropdown.Item target="_blank" href="https://mutue.ao/login"  className="LinkStyle">Mutue</NavDropdown.Item>
@@ -65,6 +94,9 @@ function NavBar() {
                   </NavDropdown.Item>
 
                 <NavDropdown.Item target="_blank" href="http://gestaodepessoas.mutue.ao/"  className="gf">Gestão de Pessoas</NavDropdown.Item>
+
+                <NavDropdown.Item target="_blank" href="https://mutue.ao/candidatura_docente/inicial"  className="gf">
+                  Candidatura Docente</NavDropdown.Item>
                 {/* <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
               </NavDropdown>

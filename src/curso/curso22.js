@@ -1,6 +1,6 @@
 import "./curso.css";
 import { Row, Container, Col, Table } from 'react-bootstrap';
-
+import Doc from '../assets/PLANO CURRICULAR/ENG. AGRO PEC.pdf'
 
 
 
@@ -38,11 +38,11 @@ O curso dará ênfase à agricultura urbana e à segurança alimentar da popula�
                                 </tr>
                                 <tr>
                                 <td>Duração</td>
-                                <td>5 anos</td>
+                                <td>4 anos</td>
                                 </tr>
                                 <tr>
                                 <td>Plano Curricular</td>
-                                <td>pdf</td>
+                                <td><a target="_blank" href={Doc}>pdf</a></td>
                                 </tr>
                                 
                             </tbody>

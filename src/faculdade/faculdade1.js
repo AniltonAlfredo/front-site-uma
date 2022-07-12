@@ -55,6 +55,9 @@ const Faculdade1 = () => {
                                 
                                 <hr></hr>
                                 <Link to="/curso6"><span className='spnFcl'>Engenharia Industrial e Sistemas Eléctricos</span></Link>
+
+                                <hr></hr>
+                                <Link to="/curso22"><span className='spnFcl'>Engenharia Agropecuária</span></Link>
                                 
                                 <hr></hr>
                                 <Link to="/curso2"><span className='spnFcl'>Arquitectura e Urbanismo</span></Link>

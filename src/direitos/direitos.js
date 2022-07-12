@@ -7,7 +7,7 @@ const Direitos = () => {
 
         <Container fluid className="ContainerDireitos">
             <div className="Direitos">
-                <br/>  2021 © Todos os direitos reservados à Universidade Metodista de Angola
+                <br/>  2022 © Todos os direitos reservados à Universidade Metodista de Angola
             </div>
         </Container>
     )

@@ -1,7 +1,8 @@
 import "./curso.css";
 import { Row, Container, Col, Image, Table } from 'react-bootstrap';
 import imagem from '../assets/703B0201.jpg'
-
+import Doc from '../assets/PLANO CURRICULAR/BIOLOGIA PDF.pdf'
+import Doc1 from '../assets/PLANO CURRICULAR/BIO.PDF'
 
 
 
@@ -47,7 +48,7 @@ Na área da Biotecnologia como investigador e técnico nos Laboratórios, da ind
                                 </tr>
                                 <tr>
                                 <td>Plano Curricular</td>
-                                <td>pdf</td>
+                                <td><a target="_blank" href={Doc}>pdf</a>   |   <a target="_blank" href={Doc1}>pdf</a></td>
                                 </tr>
                                 
                             </tbody>

@@ -14,7 +14,7 @@
 .LinkStyle{
     font-size: 15px;
     padding-left: content;
-    padding-right: 50%;
+    padding-right: content;
     text-decoration: none;
     color: black;
     margin: 0px;

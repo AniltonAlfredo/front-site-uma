@@ -1,7 +1,7 @@
 import "./curso.css";
 import { Row, Container, Col, Image, Table } from 'react-bootstrap';
 import imagem from '../assets/703B0201.jpg'
-
+import Doc from '../assets/PLANO CURRICULAR/ENG. AMBIENTAL.pdf'
 
 
 
@@ -44,7 +44,7 @@ ambiental.
                                 </tr>
                                 <tr>
                                 <td>Plano Curricular</td>
-                                <td>pdf</td>
+                                <td><a target="_blank" href={Doc}>pdf</a></td>
                                 </tr>
                                 
                             </tbody>
