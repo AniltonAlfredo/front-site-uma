@@ -26,7 +26,7 @@ const News = () => {
         return(
             <>
                 <Col lg="4">
-                            <img src={news.img} alt={news.titulo} width="400px" />
+                            <img src={news.img} alt={news.titulo} width="100%"/>
                             <Link to={`/noticia/${news.codigo}`}> <h5>{news.titulo}</h5></Link>
                 </Col>
 

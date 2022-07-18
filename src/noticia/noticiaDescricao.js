@@ -25,10 +25,10 @@ const News = () => {
         <>
             
 
-                    <Col md="8">
+                    <Col md="8" className='ColDestaque'>
                         <div>
                             <div>
-                                <img src={news.img} alt={news.titulo} width="800px" />
+                                <img src={news.img} alt={news.titulo} width="100%" />
                                 <h3>{news.titulo}</h3>  
                                 <p dangerouslySetInnerHTML={{__html:news.descricao}}/>
                             </div>
@@ -53,8 +53,9 @@ const NoticiaDescricao = () => {
                     <News/>                   
 
                     <Col md="2" className='ColDestaque'>
-                    </Col>                     
-                    </Row>
+                    </Col> 
+
+                </Row>
                 </Container>
         </>    
     )

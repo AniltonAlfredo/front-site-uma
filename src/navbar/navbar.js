@@ -7,7 +7,7 @@ import LogoHorizontal from '../assets/lgH3c.png'
 import Doc from '../assets/Estatuto e Plano Curricular/uma_regulamento_academico-1.pdf'
 import Doc1 from '../assets/Estatuto e Plano Curricular/EstatutoLV.pdf'
 import Doc2 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO ACADÉMICO REAJUSTADO 2021-2022.pdf'
-import Doc3 from '../assets/Estatuto e Plano Curricular/Calendário Académico 2022-2023  - Interno.pdf'
+import Doc3 from '../assets/Estatuto e Plano Curricular/Calendário Académico corrigido.pdf'
 
 function NavBar() {
   return (   
