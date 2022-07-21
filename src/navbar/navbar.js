@@ -73,6 +73,11 @@ function NavBar() {
                             </ul>
                     </li>
                   </NavDropdown.Item>
+
+                  <NavDropdown.Item className="ItemStyle">
+                    <Link className="LinkStyle" to="/poslaboral">Pós-Laboral</Link>
+                  </NavDropdown.Item>
+
                   <NavDropdown.Item className="ItemStyle">
                     <Link className="LinkStyle" to="/posgraduacao">Pós-Graduação</Link>
                   </NavDropdown.Item>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
 import img1 from '../assets/Banner-Agro.jpg'
@@ -14,27 +15,33 @@ function Carrocel() {
       <Carousel>
 
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={img2}
-            alt="Five slide"
-          />
+          <Link className="LinkStyle" to="/poslaboral">
+            <img
+              className="d-block w-100"
+              src={img2}
+              alt="Five slide"
+            />
+          </Link>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={img1}
-            alt="Five slide"
-          />
+          <Link className="LinkStyle" to="/curso22">
+            <img
+              className="d-block w-100"
+              src={img1}
+              alt="Five slide"
+            />
+          </Link>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={img5}
-            alt="Five slide"
-          />
+          
+            <img
+              className="d-block w-100"
+              src={img5}
+              alt="Five slide"
+            />
+          
         </Carousel.Item>
         
         <Carousel.Item>

@@ -1,0 +1,18 @@
+.PoStyle{
+    text-align: center;
+}
+.PoStyle a{
+    color: black;
+}
+.PoStyle a:hover{
+    color: rgb(255, 36, 36);
+    font-size: 17px;
+}
+.PoStyle h1{
+    padding: 20px;
+}
+.Header-Text-PL{
+    background-color: #aa0a0a;
+    color: white;
+    font-family: Impact;
+}
