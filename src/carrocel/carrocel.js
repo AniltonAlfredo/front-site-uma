@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
-import img1 from '../assets/banner-universidade-pra-você.jpg'
-import img2 from '../assets/MutueMobile-bannersite.jpg'
+import img1 from '../assets/Banner-Agro.jpg'
+import img2 from '../assets/banner-pós laboral1.jpg'
 import img3 from '../assets/Banner-covid.jpg'
 import img4 from '../assets/Profas.jpg'
 import img5 from '../assets/banner-preparatório2023.jpg'
@@ -12,6 +12,22 @@ import img6 from '../assets/banner-semana-das-profissões.jpg'
 function Carrocel() {
     return (    
       <Carousel>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={img2}
+            alt="Five slide"
+          />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={img1}
+            alt="Five slide"
+          />
+        </Carousel.Item>
 
         <Carousel.Item>
           <img
