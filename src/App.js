@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './navbar/navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+
 import Direitos from './direitos/direitos';
 import Home from './home/home';
 import Rodape from './rodape/rodape';
@@ -39,12 +41,20 @@ import FaculdadeDescricao from './faculdade/faculdadeDescricao';
 import EventoDescricao from './evento/eventoDescricao';
 import PosGraduacao from './posGraduacao/posgraduacao';
 import PosLaboral from './posLaboral/poslaboral';
+import Modal from './popup/modal';
+import Ouvidoria from './ouvidoria/ouvidoria';
+
+
 
 
 function App() {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div className="App">
       
+      
+      
+
       <BrowserRouter>
         <NavBar/>
         <Routes>
@@ -84,6 +94,7 @@ function App() {
           <Route path="/faculdade4" element={<Faculdade4/>} />
           <Route path="/posgraduacao" element={<PosGraduacao/>} />
           <Route path="/poslaboral" element={<PosLaboral/>} />
+          <Route path="/ouvidoria" element={<Ouvidoria/>}/>
         </Routes>
         <Rodape/>
         <Direitos/>

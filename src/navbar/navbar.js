@@ -107,6 +107,7 @@ function NavBar() {
               </NavDropdown>
             </Nav>
           
+            <Nav.Link><Link className="MenuItems" to="/ouvidoria">Ouvidoria</Link></Nav.Link>
 
 
               </Navbar.Collapse>

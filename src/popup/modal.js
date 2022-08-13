@@ -1,21 +1,39 @@
-import React, { useRef } from "react";
-import ReactDom from "react-dom";
-export const Modal = ({ setShowModal }) => {
-  // close the modal when clicking outside the modal.
-  const modalRef = useRef();
-  const closeModal = (e) => {
-    if (e.target === modalRef.current) {
-      setShowModal(false);
-    }
-  };
-  //render the modal JSX in the portal div.
-  return ReactDom.createPortal(
-    <div className="container" ref={modalRef} onClick={closeModal}>
-      <div className="modal">
-        <h2>This is a Modal</h2>
-        <button onClick={() => setShowModal(false)}>X</button>
+import React from 'react';
+import "./modal.css"
+import nft from '../assets/popup.jpg'
+
+const Modal = ({ open, onClose }) => {
+  if (!open) return null;
+  return (
+    <div onClick={onClose} className='overlay'>
+      <div
+        onClick={(e) => {
+          e.stopPropagation();
+        }}
+        className='modalContainer'
+      >
+        <img src={nft} alt='/' />
+        <div className='modalRight'>
+          <p className='closeBtn' onClick={onClose}>
+            X
+          </p>
+          <div className='content'>
+            <p>Do you want a</p>
+            <h1>$20 CREDIT</h1>
+            <p>for your first tade?</p>
+          </div>
+          <div className='btnContainer'>
+            <button className='btnPrimary'>
+              <span className='bold'>YES</span>, I love NFT's
+            </button>
+            <button className='btnOutline'>
+              <span className='bold'>NO</span>, thanks
+            </button>
+          </div>
+        </div>
       </div>
-    </div>,
-    document.getElementById("portal")
+    </div>
   );
-}
+};
+
+export default Modal;

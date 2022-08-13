@@ -1,7 +1,9 @@
 
 .MenuItems{
     text-align: center;
+    color:rgb(139, 138, 138);
 }
+
 .Navbarstyle{
     
     display: flex;
