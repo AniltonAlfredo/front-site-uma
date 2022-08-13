@@ -22,7 +22,7 @@ const Curso8 = () => {
                 <Row>
                     <Col md="8">
                         <p className='pfacul'>
-                        O curso de Administração e Gestão de Empresas da Metodista de Angola possibilita uma formação de carácter
+                        O curso de Gestão e Administração de Empresas da Metodista de Angola possibilita uma formação de carácter
                          genérico em gestão, adequada aos crescentes desafios de competitividade e mutação do meio 
 empresarial, gerados pela globalização das economias à escala mundial. Este ambiente de grande concorrência e em constante 
 mudança exige uma gestão eficiente com rapidez na tomada de decisões, uma capacidade de liderança eficaz e competente, uma 
@@ -47,7 +47,7 @@ planeamento e controle de gestão e marketing.
                                 </tr>
                                 <tr>
                                 <td>Plano Curricular</td>
-                                <td><a target="_blank" href={Doc}>pdf</a>  |  <a target="_blank" href={Doc1}>Ramo 1</a>  |  <a target="_blank" href={Doc2}>Ramo 2</a>  |  <a target="_blank" href={Doc3}>Ramo 3</a></td>
+                                <td><a target="_blank" href={Doc}>Geral</a>  |  <a target="_blank" href={Doc1}>Ramo 1</a>  |  <a target="_blank" href={Doc2}>Ramo 2</a>  |  <a target="_blank" href={Doc3}>Ramo 3</a></td>
                                 </tr>
                                 
                             </tbody>

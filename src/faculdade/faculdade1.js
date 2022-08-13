@@ -20,10 +20,10 @@ const Faculdade1 = () => {
                     <Col md="8">
                         <p className='pfacul'>
                         A Faculdade de Engenharia e Arquitectura é parte integrante da Universidade 
-                        Metodista de Angola alberga 7 cursos: Curso de Arquitectura e Urbanismo (AU), 
+                        Metodista de Angola alberga 8 cursos: Curso de Arquitectura e Urbanismo (AU), 
                         Curso de Ambiente e Gestão do Território (AGT), Curso de Engenharia Civil (ECIVIL), 
                         Curso de Engenharia do Ambiente (EAMB), Curso de Engenharia Mecatrónica (EMEC), Curso 
-                        de Engenharia Industrial e Sistemas Eléctricos (EISE) e o Curso de Engenharia Informática 
+                        de Engenharia Industrial e Sistemas Eléctricos (EISE), Curso de Engenharia Agropecuária e o Curso de Engenharia Informática 
                         (EINF). <br/><br/>Os cursos da Faculdade de Engenharia e Arquitetura são muito dinâmicos e 
                         interligados, o que sugere uma continuidade na sua acção.  O espírito de missão emanado 
                         pela Faculdade assegura uma formação de técnicos habilitados a exercerem as suas actividades 

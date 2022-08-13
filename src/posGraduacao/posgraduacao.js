@@ -43,7 +43,7 @@ const PosGraduacao = () => {
                                 <a target="_blank" href={GA}>GESTÃO AMBIENTAL</a>
                                 
                                 <hr></hr>
-                                <a target="_blank" href={INFO}>INFORMÁTICA</a>
+                                <a target="_blank" href={INFO}>ENGENHARIA INFORMÁTICA</a>
                                 
                             </Card.Body>
                             

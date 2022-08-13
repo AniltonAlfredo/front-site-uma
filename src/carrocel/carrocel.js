@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
 import img1 from '../assets/Banner-Agro.jpg'
-import img2 from '../assets/banner-pós laboral1.jpg'
-import img3 from '../assets/Banner-covid.jpg'
+import img2 from '../assets/banner-pós laboral_.jpg'
+import img3 from '../assets/Banner-desporto.jpg'
 import img4 from '../assets/Profas.jpg'
 import img5 from '../assets/banner-preparatório2023.jpg'
 import img6 from '../assets/banner-semana-das-profissões.jpg'
@@ -29,6 +29,16 @@ function Carrocel() {
             <img
               className="d-block w-100"
               src={img1}
+              alt="Five slide"
+            />
+          </Link>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <Link className="LinkStyle" to="/curso13">
+            <img
+              className="d-block w-100"
+              src={img3}
               alt="Five slide"
             />
           </Link>
