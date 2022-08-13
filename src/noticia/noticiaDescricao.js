@@ -28,7 +28,7 @@ const News = () => {
                     <Col md="8" className='ColDestaque'>
                         <div>
                             <div>
-                                <img src={news.img} alt={news.titulo} width="100%" />
+                                <img src={news.img} alt="" width="100%" />
                                 <h3>{news.titulo}</h3>  
                                 <p dangerouslySetInnerHTML={{__html:news.descricao}}/>
                             </div>

@@ -42,7 +42,7 @@ const Faculdade2 = () => {
                             <Card.Body>
                                 <Link to="/curso12"> <span className='spnFcl'>Direito</span></Link>                            
                                 <hr></hr>
-                                <Link to="/curso8"> <span className='spnFcl'>Gestão e Administração Empresarial</span></Link> 
+                                <Link to="/curso8"> <span className='spnFcl'>Gestão e Administração de Empresas</span></Link> 
                                 <hr></hr>
                                 <Link to="/curso9"><span className='spnFcl'>Língua Portuguesa e Comunicação</span></Link>                                
                                 <hr></hr>

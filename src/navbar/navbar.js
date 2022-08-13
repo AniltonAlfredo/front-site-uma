@@ -7,7 +7,7 @@ import LogoHorizontal from '../assets/lgH3c.png'
 import Doc from '../assets/Estatuto e Plano Curricular/uma_regulamento_academico-1.pdf'
 import Doc1 from '../assets/Estatuto e Plano Curricular/EstatutoLV.pdf'
 import Doc2 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO ACADÉMICO REAJUSTADO 2021-2022.pdf'
-import Doc3 from '../assets/Estatuto e Plano Curricular/Calendário Académico corrigido.pdf'
+import Doc3 from '../assets/Estatuto e Plano Curricular/REITORIA CALENDÁRIO ACADÉMICO 2022 -2023.pdf'
 
 function NavBar() {
   return (   
@@ -94,11 +94,11 @@ function NavBar() {
               </NavDropdown>
               
               <NavDropdown title="Administrativo" id="basic-nav-dropdown">
-                <NavDropdown.Item target="_blank" href="http://mutue.co.ao/mutue/faces/login.xhtml"  className="LinkStyle">
+                <NavDropdown.Item target="_blank" href="http://mutue.co.ao/mutue/"  className="LinkStyle">
                   Gestão Académica
                   </NavDropdown.Item>
 
-                <NavDropdown.Item target="_blank" href="http://gestaodepessoas.mutue.ao/"  className="gf">Gestão de Pessoas</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="http://gestaodepessoas.mutue.ao/ "  className="gf">Gestão de Pessoas</NavDropdown.Item>
 
                 <NavDropdown.Item target="_blank" href="https://mutue.ao/candidatura_docente/inicial"  className="gf">
                   Candidatura Docente</NavDropdown.Item>
