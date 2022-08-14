@@ -49,35 +49,33 @@ const Ouvidoria = () => {
                     <Col md="12">
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header>O QUE É A OUVIDORIA</Accordion.Header>
+                            <Accordion.Header>O QUE É A OUVIDORIA?</Accordion.Header>
                             <Accordion.Body>
-                            A Ouvidoria é o serviço disponibilizado pela Universidade Metodista de Angola (UMA), como 
-um de comunicação entre a comunidade académica, docentes, trabalhadores técnicos e administrativos, 
-colaboradores, sociedade civil e administração da UMA no encaminhamento para resolução das preocupações 
-e problemas, na prestação de serviço da instituição.
+                            A Ouvidoria é um serviço de relacionamento disponível a toda a comunidade académica: estudantes, 
+                            docentes, trabalhadores técnicos administrativos, prestadores de serviço e a comunidade em geral.<br/>
 
-O gabinete de Ouvidoria não tem o poder de decisão, mas tem uma grande antonomia no acesso de todos 
-os departamentos da universidade. Busca de solução, na forma de agir como mediador na participação do cidadão.
+A Ouvidoria está diretamente subordinada à Reitoria resguardada sua independência funcional no âmbito de suas atribuições.<br/>
+
+As ações da Ouvidoria devem ser desenvolvidas de modo a assegurar o atendimento acessível, confidencial, 
+imparcial, ético e comprometido com os direitos do manifestante e com o cumprimento das normas e princípios da instituição.<br/>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
-                            <Accordion.Header>PAPEL DA OUVIDORIA</Accordion.Header>
+                            <Accordion.Header>OBJECTIVO DA OUVIDORIA</Accordion.Header>
                             <Accordion.Body>
                             <ListGroup>
-                                <ListGroup.Item>Assegurar aos utentes a oportunidade de ter sua preocupação ou desejo reavaliada, caso o atendimento recebido pelo sector
-                                da instituição, anteriormente, não tenha sido considerado satisfatório.</ListGroup.Item>
+                                <ListGroup.Item>Assegurar aos utentes a oportunidade de ter a sua demanda reavaliada, caso o atendimento recebido pelos sectores da instituição, anteriormente, não tenha sido considerado satisfatório.</ListGroup.Item>
 
-                                <ListGroup.Item>Assegurar que o atendimento seja acessível a todos os públicos. </ListGroup.Item>
+                                <ListGroup.Item>Assegurar que o atendimento seja acessível a todos os públicos.
+ </ListGroup.Item>
 
-                                <ListGroup.Item>Assegurar a imparcialidade e a igualdade nos atendimentos prestados pela Instituição.</ListGroup.Item>
+                                <ListGroup.Item>Assegurar a imparcialidade e a igualdade nos atendimento prestado pela instituição.</ListGroup.Item>
                                 
-                                <ListGroup.Item>Assegurar o direito à manifestação, independentemente da consideração ser procedente ou não.</ListGroup.Item>
+                                <ListGroup.Item>Assegurar o direito à manifestação, independente da consideração ser procedente ou não.</ListGroup.Item>
                                 
                                 <ListGroup.Item>Assegurar que o manifestante receba retorno, com as devidas justificações, para todo e qualquer assunto, 
                             desde que cumpra os requisitos estabelecidos neste regulamento. </ListGroup.Item>
                                 
-                                <ListGroup.Item>Assegurar que o manifestante receba retorno, com as devidas justificações, para todo e qualquer assunto, 
-                            desde que cumpra os requisitos estabelecidos neste regulamento. </ListGroup.Item>
                                 <ListGroup.Item>Assegurar que o manifestante receba retorno, com as devidas justificações, para todo e qualquer assunto, 
                             desde que cumpra os requisitos estabelecidos neste regulamento. </ListGroup.Item>
                                 <ListGroup.Item>Assegurar ao manifestante a oportunidade de ter o seu propósito levado ao conhecimento das áreas 
@@ -101,21 +99,30 @@ os departamentos da universidade. Busca de solução, na forma de agir como medi
                     <Col md="12">
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header>FALA CONNOSCO</Accordion.Header>
+                            <Accordion.Header><h4>FALA CONNOSCO</h4></Accordion.Header>
                             <Accordion.Body>
 
                             <form ref={form} onSubmit={sendEmail}>
 
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label>Digite o seu nome</Form.Label>
-                                <Form.Control type="name" placeholder="digite aqui o seu nome" name="name" />
+                                <Row>
+                                    <Col md="6">
+                                        <Form.Label>Digite o seu nome</Form.Label>
+                                        <Form.Control type="name" placeholder="digite aqui o seu nome" name="name" />
+                                    </Col>
+                                    <Col md="6">
+                                        <Form.Label>Digite o seu email</Form.Label>
+                                        <Form.Control type="email" placeholder="digite aqui o seu email" name="email" />
+                                    </Col>
+                                </Row>
+                                
+                                
+                                
                                 <br/>
                                 <Form.Label>Assunto</Form.Label>
                                 <Form.Control type="name" placeholder="assunto" name="subject" />
                                 <br/>
-                                <Form.Label>Digite o seu email</Form.Label>
-                                <Form.Control type="email" placeholder="digite aqui o seu email" name="email" />
-                                <br/>
+                                
                                 <Form.Label>Digite a sua mensagem</Form.Label>
                                 <Form.Control as="textarea" name="message" rows={4}/>
                             </Form.Group>
@@ -147,7 +154,7 @@ os departamentos da universidade. Busca de solução, na forma de agir como medi
         <Modal.Header closeButton>
           <Modal.Title>Mensagem Enviada com Sucesso!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>A equipa da Ouvidoria vai responder o mais rápido que poder, obrigado por entrar em contacto.</Modal.Body>
+        <Modal.Body>A equipa da Ouvidoria vai responder o mais rápido que poderw, obrigado por entrar em contacto.</Modal.Body>
     </Modal>
 
     

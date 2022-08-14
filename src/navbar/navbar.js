@@ -107,10 +107,13 @@ function NavBar() {
               </NavDropdown>
             </Nav>
           
-            <Nav.Link><Link className="MenuItems" to="/ouvidoria">Ouvidoria</Link></Nav.Link>
+            <Nav.Link>
+              <Link className="MenuItems" to="/ouvidoria">Ouvidoria</Link>
+            </Nav.Link>
+            
 
 
-              </Navbar.Collapse>
+          </Navbar.Collapse>
         </Row>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -43,6 +43,7 @@ import PosGraduacao from './posGraduacao/posgraduacao';
 import PosLaboral from './posLaboral/poslaboral';
 import Modal from './popup/modal';
 import Ouvidoria from './ouvidoria/ouvidoria';
+import Pastoral from './pastoral/pastoral';
 
 
 
@@ -95,6 +96,7 @@ function App() {
           <Route path="/posgraduacao" element={<PosGraduacao/>} />
           <Route path="/poslaboral" element={<PosLaboral/>} />
           <Route path="/ouvidoria" element={<Ouvidoria/>}/>
+          <Route path="/pastoral" />
         </Routes>
         <Rodape/>
         <Direitos/>
