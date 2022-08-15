@@ -12,9 +12,8 @@ import Doc3 from '../assets/Estatuto e Plano Curricular/REITORIA CALENDÁRIO ACA
 function NavBar() {
   return (   
     <>
-
-     <Navbar bg="light" expand="lg" className="NBSTL" >
-      <Container>
+     <Navbar bg="light" expand="lg" className="NavBarEsp" fixed="top" height="1000px">
+      <Container className="NavBarEsp">
         <Link to="/"><Image src={LogoHorizontal} fluid height="140px" width="140px"/></Link>
         <Row className="Navbarstyle">
           <Navbar.Collapse >
@@ -107,7 +106,7 @@ function NavBar() {
               </NavDropdown>
             </Nav>
           
-            <Nav.Link>
+            <Nav.Link >
               <Link className="MenuItems" to="/ouvidoria">Ouvidoria</Link>
             </Nav.Link>
             
@@ -121,8 +120,15 @@ function NavBar() {
       </Container>
     </Navbar>
 
+    <br/><br/><br/>
+       
+    </>
+  );
+}
 
-    {/* <nav id="navbar" className="navbar">
+export default NavBar;
+
+{/* <nav id="navbar" className="navbar">
       <Link to="/"><Image src={LogoHorizontal} fluid height="140px" width="140px"/></Link>
                 <ul>
                   <li className="dropdown"><a href="#"><span>SOBRE NÓS</span> <i className="bi bi-chevron-down"></i></a>
@@ -183,9 +189,3 @@ function NavBar() {
                 </ul>
                 {/* <i className="bi bi-list mobile-nav-toggle"></i> 
               </nav> */}
-
-    </>
-  );
-}
-
-export default NavBar;

@@ -3,6 +3,8 @@ import  './noticia.css'
 import { Row, Container, Col } from 'react-bootstrap';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Moment from 'moment';
+import 'moment/locale/pt';
 
 const News = () => {
 
@@ -27,8 +29,9 @@ const News = () => {
             <>
                 <Col md="4" className="NotGeral">
                             {/* <img src={news.img} alt={news.titulo} width="400px" height="300px" /> */}
-                            <img src={news.img} alt={news.titulo} width="400px"/>
+                            {/* <img src={news.img} alt="" width="400px"/> */}
                             <Link to={`/noticia/${news.codigo}`}> <h5>{news.titulo}</h5></Link>
+                            <p>{Moment(news.data).format('DD MMMM YYYY')}</p>
                 </Col>
 
             </>

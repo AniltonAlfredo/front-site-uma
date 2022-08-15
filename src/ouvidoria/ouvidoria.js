@@ -76,8 +76,7 @@ imparcial, ético e comprometido com os direitos do manifestante e com o cumprim
                                 <ListGroup.Item>Assegurar que o manifestante receba retorno, com as devidas justificações, para todo e qualquer assunto, 
                             desde que cumpra os requisitos estabelecidos neste regulamento. </ListGroup.Item>
                                 
-                                <ListGroup.Item>Assegurar que o manifestante receba retorno, com as devidas justificações, para todo e qualquer assunto, 
-                            desde que cumpra os requisitos estabelecidos neste regulamento. </ListGroup.Item>
+                                
                                 <ListGroup.Item>Assegurar ao manifestante a oportunidade de ter o seu propósito levado ao conhecimento das áreas 
                             de interesse, da Reitoria e da Promotora.</ListGroup.Item>
                                 <ListGroup.Item>Assegurar o relacionamento de respeito e confiança entre a Instituição e os manifestantes.</ListGroup.Item>
@@ -106,13 +105,17 @@ imparcial, ético e comprometido com os direitos do manifestante e com o cumprim
 
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Row>
-                                    <Col md="6">
+                                    <Col md="4">
                                         <Form.Label>Digite o seu nome</Form.Label>
                                         <Form.Control type="name" placeholder="digite aqui o seu nome" name="name" />
                                     </Col>
-                                    <Col md="6">
+                                    <Col md="4">
                                         <Form.Label>Digite o seu email</Form.Label>
                                         <Form.Control type="email" placeholder="digite aqui o seu email" name="email" />
+                                    </Col>
+                                    <Col md="4">
+                                        <Form.Label>Digite número de telefone</Form.Label>
+                                        <Form.Control type="phone" placeholder="digite aqui o seu número de telefone" name="phone" />
                                     </Col>
                                 </Row>
                                 
@@ -120,11 +123,11 @@ imparcial, ético e comprometido com os direitos do manifestante e com o cumprim
                                 
                                 <br/>
                                 <Form.Label>Assunto</Form.Label>
-                                <Form.Control type="name" placeholder="assunto" name="subject" />
+                                <Form.Control type="name" placeholder="digite aqui o assunto" name="subject" />
                                 <br/>
                                 
                                 <Form.Label>Digite a sua mensagem</Form.Label>
-                                <Form.Control as="textarea" name="message" rows={4}/>
+                                <Form.Control as="textarea" name="message" placeholder="digite a sua mensagem aqui" rows={4}/>
                             </Form.Group>
 
 
@@ -150,11 +153,11 @@ imparcial, ético e comprometido com os direitos do manifestante e com o cumprim
         
 
 
-      <Modal show={show} onHide={handleClose}>
+    <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Mensagem Enviada com Sucesso!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>A equipa da Ouvidoria vai responder o mais rápido que poderw, obrigado por entrar em contacto.</Modal.Body>
+        <Modal.Body>A equipa da Ouvidoria vai responder o mais rapidamente possível. Obrigado por entrar em contacto.</Modal.Body>
     </Modal>
 
     
