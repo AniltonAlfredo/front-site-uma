@@ -58,7 +58,7 @@ const PosGraduacao = () => {
                                 </Card.Text>
                             </Card.Header>
                             <Card.Body>
-                                <a target="_blank" href={DouTeo}>ESTUDOS DA RELIGIÃO</a>
+                                <a target="_blank" href={DouTeo}>ESTUDOS DA RELIGIÃO E TEOLOGIA</a>
                                 
                             </Card.Body>
                             
