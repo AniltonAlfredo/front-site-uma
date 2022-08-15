@@ -127,9 +127,9 @@ imparcial, ético e comprometido com os direitos do manifestante e com o cumprim
                                 <br/>
                                 
                                 <Form.Label>Digite a sua mensagem</Form.Label>
-                                <Form.Control as="textarea" name="message" placeholder="digite a sua mensagem aqui" rows={4}/>
+                                <Form.Control as="textarea" name="message" placeholder="digite a sua mensagem aqui." rows={4}/>
                             </Form.Group>
-
+ 
 
 
                             <Button variant="primary" type="submit" onClick={handleShow}>
