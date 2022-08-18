@@ -4,15 +4,36 @@ import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
 import img1 from '../assets/Banner-Agro.jpg'
 import img2 from '../assets/banner-pós laboral_.jpg'
-import img3 from '../assets/Banner-desporto.jpg'
+import img3 from '../assets/banner-curso-exame-de-acesso-mestrados.jpg'
 import img4 from '../assets/Profas.jpg'
-import img5 from '../assets/banner-preparatório2023.jpg'
+import img5 from '../assets/banner-curso-exame-de-acesso.jpg'
 import img6 from '../assets/banner-semana-das-profissões.jpg'
 
 
 function Carrocel() {
     return (    
       <Carousel>
+
+        <Carousel.Item>
+          <a target="_blank" href="https://mutue.ao/register">
+            <img
+              className="d-block w-100"
+              src={img5}
+              alt="Five slide"
+            />
+          </a>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <a target="_blank" href="http://www.universidademetodista.ao/static/media/Edital-Pos.78691b33.pdf">
+            <img
+              className="d-block w-100"
+              src={img3}
+              alt="Five slide"
+            />
+          </a>
+        </Carousel.Item>
+
 
         <Carousel.Item>
           <Link className="LinkStyle" to="/poslaboral">
@@ -34,25 +55,9 @@ function Carrocel() {
           </Link>
         </Carousel.Item>
 
-        <Carousel.Item>
-          <Link className="LinkStyle" to="/curso13">
-            <img
-              className="d-block w-100"
-              src={img3}
-              alt="Five slide"
-            />
-          </Link>
-        </Carousel.Item>
+        
 
-        <Carousel.Item>
-          
-            <img
-              className="d-block w-100"
-              src={img5}
-              alt="Five slide"
-            />
-          
-        </Carousel.Item>
+        
         
         <Carousel.Item>
           <a target="_blank" href="https://mutue.ao/candidatura_docente/inicial">

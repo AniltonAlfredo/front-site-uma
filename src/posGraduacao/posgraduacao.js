@@ -1,15 +1,16 @@
 import React from 'react'
 import  './posgraduacao.css'
-import { Row, Container, Col, Image, Card} from 'react-bootstrap';
+import { Row, Container, Col, Image, Card, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import AC from './AUDITORIA E CONTABILIDADE.pdf'
 import EGA from './ECONOMIA E GESTÃO APLICADAS.pdf'
 import EOTDR from './EOTDREGIONAL.pdf'
-import ER from './ESTUDOS DA RELIGIÃO.pdf'
+import ER from './Áreas de Concentração e Linhas de Pesquisa Mestrado e Plano Curricular.pdf'
 import GA from './GESTÃO AMBIENTAL.pdf'
 import INFO from './INFORMATICA COMPLETO.pdf'
-import DouTeo from './Doutoramento-TEOLOGIA.pdf'
+import DouTeo from './Áreas de Concentração e Linhas de Pesquisa Doutorado e Plano Curricular.pdf'
+import Edital from './Edital-Pos.pdf'
 
 const PosGraduacao = () => {
     return (
@@ -20,6 +21,16 @@ const PosGraduacao = () => {
                     <h1>PÓS-GRADUAÇÃO</h1>
                 </Col>
             </Row>
+            <Row>
+                <Col md="12" className="PoStyle">
+                    <a target="_blank" href={Edital}>
+                            <Button variant="primary">
+                                VER O EDITAL
+                            </Button>
+                    </a>
+                </Col>
+            </Row>
+            <br/>
             <Row>
                 <Col md="6" className="PoStyle">
                         <Card bg="light" text="dark" className="">
