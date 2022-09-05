@@ -62,10 +62,10 @@ function Home() {
 
               
             </Modal.Body>
-            {/* <Modal.Footer>
+            <Modal.Footer>
                <Button variant="secondary" onClick={handleClose}>Entendido</Button> 
               <Button variant="primary" href='https://mutue.ao/register' target='_blank' >Inscrever-se</Button>
-            </Modal.Footer> */}
+            </Modal.Footer>
           </Modal>
 
 

@@ -7,8 +7,8 @@ import emm from './Escola.png'
 
 function Links() {
   return (
-    <>
-        
+    <>       
+
         <Container fluid  className="Links">
             <div>
                 <h1>Links de Interesse</h1>
@@ -55,8 +55,8 @@ function Links() {
             </Row>
             
             <br/>
-        </Container>
-        
+        </Container>  
+             
           
     </>
 

@@ -59,7 +59,7 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route path="/" exact element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/reitoria" element={<Reitoria/>} />
           <Route path="/historial" element={<Historial/>} />
           <Route path="/curso/:codigo" element={<Curso/>} />
