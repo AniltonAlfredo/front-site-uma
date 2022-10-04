@@ -11,6 +11,7 @@ import GA from './GESTÃO AMBIENTAL.pdf'
 import INFO from './INFORMATICA COMPLETO.pdf'
 import DouTeo from './Áreas de Concentração e Linhas de Pesquisa Doutorado e Plano Curricular.pdf'
 import Edital from './Edital-Pos.pdf'
+import Admitidos from './LISTA DE APROVADOS PARA OS CURSOS DE MESTRADO.pdf'
 
 const PosGraduacao = () => {
     return (
@@ -28,6 +29,11 @@ const PosGraduacao = () => {
                                 VER O EDITAL
                             </Button>
                     </a>
+                    {/* <a target="_blank" href={Admitidos}>
+                            <Button variant="primary">
+                                LISTA DOS ADMITIDOS
+                            </Button>
+                    </a> */}
                 </Col>
             </Row>
             <br/>

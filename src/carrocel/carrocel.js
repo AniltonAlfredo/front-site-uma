@@ -7,14 +7,25 @@ import img2 from '../assets/banner-pós laboral_.jpg'
 import img3 from '../assets/banner-curso-exame-de-acesso-mestrados.jpg'
 import img4 from '../assets/Profas.jpg'
 import img5 from '../assets/banner-curso-exame-de-acesso.jpg'
-import img6 from '../assets/banner-semana-das-profissões.jpg'
+import img6 from '../assets/banner-ouvidoria.jpg'
 
 
 function Carrocel() {
     return (    
       <Carousel>
 
+
         <Carousel.Item>
+            <Link className="LinkStyle" to="/ouvidoria">
+                    <img
+                      className="d-block w-100"
+                      src={img6}
+                      alt="sixth slide"
+                    />
+            </Link>     
+        </Carousel.Item>
+        
+        {/* <Carousel.Item>
           <a target="_blank" href="https://mutue.ao/register">
             <img
               className="d-block w-100"
@@ -22,7 +33,7 @@ function Carrocel() {
               alt="Five slide"
             />
           </a>
-        </Carousel.Item>
+        </Carousel.Item> */}
 
         <Carousel.Item>
           <a target="_blank" href="http://www.universidademetodista.ao/static/media/Edital-Pos.78691b33.pdf">
@@ -77,15 +88,7 @@ function Carrocel() {
           />
         </Carousel.Item> */}
 
-        {/* <Carousel.Item>
-                  <a target="_blank" href="https://forms.gle/k65AYDEFXCpHEQzr6">
-                    <img
-                      className="d-block w-100"
-                      src={img6}
-                      alt="sixth slide"
-                    />
-                  </a>
-        </Carousel.Item> */}
+        
 
         
         

@@ -63,7 +63,7 @@ const Faculdade1 = () => {
                                 <Link to="/curso2"><span className='spnFcl'>Arquitectura e Urbanismo</span></Link>
                                 
                                 <hr></hr>
-                                <Link to="/curso3"><span className='spnFcl'>Gestão do Território e Ambiente</span></Link>
+                                <Link to="/curso3"><span className='spnFcl'>Ambiente e Gestão do Território</span></Link>
                                 
                             </Card.Body>
                             

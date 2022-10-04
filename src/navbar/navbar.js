@@ -7,7 +7,7 @@ import LogoHorizontal from '../assets/lgH3c.png'
 import Doc from '../assets/Estatuto e Plano Curricular/uma_regulamento_academico-1.pdf'
 import Doc1 from '../assets/Estatuto e Plano Curricular/EstatutoLV.pdf'
 import Doc2 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO ACADÉMICO REAJUSTADO 2021-2022.pdf'
-import Doc3 from '../assets/Estatuto e Plano Curricular/REITORIA CALENDÁRIO ACADÉMICO 2022 -2023.pdf'
+import Doc3 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO DO ANO ACADÉMICO 2022-2023 ÚLTIMA VERSÃO.pdf'
 
 function NavBar() {
   return (   
@@ -36,9 +36,9 @@ function NavBar() {
                     </li>
                 </NavDropdown.Item> */}
 
-                <NavDropdown.Item target="_blank" href={Doc2} className="LinkStyle">
+                {/* <NavDropdown.Item target="_blank" href={Doc2} className="LinkStyle">
                   Calendário 2021/2022
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                 <NavDropdown.Item target="_blank" href={Doc3} className="LinkStyle">
                   Calendário 2022/2023
                   </NavDropdown.Item>

@@ -19,9 +19,9 @@ import ImgModal from "./PopupInscricao.jpg";
 
 function Home() {
 
-  const [show, setShow] = useState(true);
+  // const [show, setShow] = useState(true);
 
-  const handleClose = () => setShow(false);
+  // const handleClose = () => setShow(false);
   //const handleShow = () => setShow(true);
 
 
@@ -43,7 +43,7 @@ function Home() {
         {/* <Mapa/> */}
 
 
-        <Modal
+        {/* <Modal
           show={show}
           onHide={handleClose}
           backdrop="static"
@@ -51,7 +51,6 @@ function Home() {
          
         >
             <Modal.Header closeButton>
-              {/* <Modal.Title>Inscrições para Exame de Acesso</Modal.Title> */}
             </Modal.Header>
             <Modal.Body>
               <img
@@ -66,7 +65,7 @@ function Home() {
                <Button variant="secondary" onClick={handleClose}>Entendido</Button> 
               <Button variant="primary" href='https://mutue.ao/register' target='_blank' >Inscrever-se</Button>
             </Modal.Footer>
-          </Modal>
+          </Modal> */}
 
 
 
