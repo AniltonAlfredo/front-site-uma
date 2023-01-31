@@ -20,8 +20,8 @@ const Faculdade1 = () => {
                     <Col md="8">
                         <p className='pfacul'>
                         A Faculdade de Engenharia e Arquitectura é parte integrante da Universidade 
-                        Metodista de Angola alberga 8 cursos: Curso de Arquitectura e Urbanismo (AU), 
-                        Curso de Ambiente e Gestão do Território (AGT), Curso de Engenharia Civil (ECIVIL), 
+                        Metodista de Angola alberga 7 cursos: Curso de Arquitectura e Urbanismo (AU),
+                         Curso de Engenharia Civil (ECIVIL), 
                         Curso de Engenharia do Ambiente (EAMB), Curso de Engenharia Mecatrónica (EMEC), Curso 
                         de Engenharia Industrial e Sistemas Eléctricos (EISE), Curso de Engenharia Agropecuária e o Curso de Engenharia Informática 
                         (EINF). <br/><br/>Os cursos da Faculdade de Engenharia e Arquitetura são muito dinâmicos e 
@@ -49,22 +49,14 @@ const Faculdade1 = () => {
                                 <Link to="/curso4"> <span className='spnFcl'>Engenharia Civil</span></Link> 
                                 <hr></hr>
                                 <Link to="/curso5"><span className='spnFcl'>Engenharia do Ambiente</span></Link>
-                                
                                 <hr></hr>
                                 <Link to="/curso7"><span className='spnFcl'>Engenharia Mecatrónica</span></Link>
-                                
                                 <hr></hr>
                                 <Link to="/curso6"><span className='spnFcl'>Engenharia Industrial e Sistemas Eléctricos</span></Link>
-
                                 <hr></hr>
                                 <Link to="/curso22"><span className='spnFcl'>Engenharia Agropecuária</span></Link>
-                                
                                 <hr></hr>
                                 <Link to="/curso2"><span className='spnFcl'>Arquitectura e Urbanismo</span></Link>
-                                
-                                <hr></hr>
-                                <Link to="/curso3"><span className='spnFcl'>Ambiente e Gestão do Território</span></Link>
-                                
                             </Card.Body>
                             
                         </Card>

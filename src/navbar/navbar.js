@@ -107,9 +107,12 @@ function NavBar() {
             </Nav>
           
             <Nav.Link >
-              <Link className="MenuItems" to="/ouvidoria">Ouvidoria</Link>
+              <Link className="MenuItems" to="/pastoral">Pastoral</Link>
             </Nav.Link>
             
+            <Nav.Link >
+              <Link className="MenuItems" to="/ouvidoria">Ouvidoria</Link>
+            </Nav.Link>
 
 
           </Navbar.Collapse>

@@ -2,7 +2,7 @@ import "./curso.css";
 import { Row, Container, Col, Image, Table } from 'react-bootstrap';
 import imagem from '../assets/703B0201.jpg'
 import Doc from '../assets/PLANO CURRICULAR/PSICOLOGIA.pdf'
-
+import Doc1 from '../assets/PLANO CURRICULAR/DECRETO EXECUTIVO.pdf'
 
 
 const Curso19 = () => {
@@ -48,7 +48,10 @@ const Curso19 = () => {
                                 <td>Plano Curricular</td>
                                 <td><a target="_blank" href={Doc}>pdf</a></td>
                                 </tr>
-                                
+                                <tr>
+                                <td>Decreto Executivo</td>
+                                <td><a target="_blank" href={Doc1}>pdf</a></td>
+                                </tr>
                             </tbody>
                         </Table>
                     </Col>

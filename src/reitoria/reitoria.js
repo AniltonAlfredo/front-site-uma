@@ -1,7 +1,8 @@
 import React from 'react'
 import  './reitoria.css'
 import ImgReitora from '../reitoria/ImagemDaReitora.jpg'
-import ImgViceReitor from '../reitoria/vice-reitor-2021.jpg'
+import ImgViceReitor1 from '../reitoria/Camada-1.png'
+import ImgViceReitor2 from '../reitoria/Camada-2.png'
 import { Row, Container, Col, Image } from 'react-bootstrap'
 const Reitoria = () => {
     return (
@@ -19,39 +20,56 @@ const Reitoria = () => {
             <Container className="PerfilReitoria">
                 <Row>
                     <Col md="4">
-                        <Image src={ImgReitora} thumbnail className="ImgStyle"/>
+                        <Image src={ImgViceReitor2} thumbnail className="ImgStyle"/>
                     </Col>
                     <Col md="8">
-                            <h2>Reitora</h2>
+                            <h3>REITOR</h3>
+                            <br/>
                             <p>
-                                Martha Nyanungo Sambanje, reitora da Universidade Metodista de Angola, no mandato de 2019 a 2022, é nascida em Mutare, no Zimbábue. Cursou a licenciatura em Ciências da Educação com especialização em Ciências Biológicas, em Cuba; alcançou o grau de Mestre em Ciências Biológicas, Humana e Molecular, na Alemanha; obteve o grau de doutoramento em Ciências da Educação, em Portugal.
-                                Em 2007, deixou a carreira académica como professora universitária no Zimbábue e dedica-se, desde então, à Universidade Metodista de Angola, onde, além de ministrar disciplinas de Biologia Celular e Molecular, Genética e Anatomia, foi decana da Faculdade de Ciências da Saúde e do Desporto.
-                                É autora de várias publicações científicas na área da Biologia, com efectiva participação em congressos, conferências, simpósios e outros eventos científicos.É também especializada em auditoria e gestão de laboratórios.Como investigadora científica, a reitora é membro do International Scientific Medical Journal.
+                            Michel Oroceno Aragón, Reitor da Universidade Metodista de Angola, é nascido em de Santiago, República de Cuba. Graduado em Cultura Física e Desporto, pela Universidade de Ciências da Cultura Física e do Desporto; Tem Especialização em Língua Inglesa pelo Instituto Superior Pedagógico, ambos de Santiago de Cuba. 
+                            É Doutor em Ciências Pedagógicas do programa de Gestão de Processos Universitários, da Universidade do Oriente. Já exerceu as funções de decano e chefe de departamento de Didática da Educação Física da Universidade de Ciências da Cultura Física e Desporto; Director do Centro de Estudos de Formação de Atletas e Treinadores Desportivos, em Cuba. 
+                            Foi coordenador das disciplinas Metodologia da Investigação Científica, Metodologia de Ensino da Educação Física e Metodologia do Treino Desportivo na Universidade Ibero-americana do Desporto em Venezuela; Coordenador do Curso de Ensino da História na Universidade Lueji A´Nkonde, em Angola. Na Metodista, além de docente, foi Vice-reitor da área académica e vida estudantil (2022), decano da Faculdade da Saúde e Bem-Estar (2020-2021) e director do Curso de Ciências do Desporto e Educação Física (2017-2022); 
+                            É autor de várias publicações científicas, com efectiva participação em congressos, conferências, simpósios e outros eventos científicos. Tem várias distinções e premiações, com destaque: Prémio Nacional do Ministério de Ciência e Tecnologia de Cuba (2005); Prémio da Reitoria do Instituto Superior de Cultura Física de Cuba, como Melhor Investigador em 2005.
                             </p>
                     </Col>
                 </Row>
             </Container>
-            {/* <hr></hr>
+            <hr></hr>
             <Container className="PerfilReitoria">
                 <Row>
                     <Col md="4">
-                        <Image src={ImgViceReitor} thumbnail/>
+                        <Image src={ImgViceReitor1} thumbnail/>
                     </Col>
                     <Col md="8">
-                            <h2>Vice-Reitor</h2>
+                            <h3>VICE-REITOR</h3>
+                            {/* <h5>ÁREA CIENTIFICA, PÓS-GRADUAÇÃO E EXTENSÃO</h5> */}
+                            <br/>
                             <p>
-                                Luciano Júlio Chingui, vice-reitor da Universidade Metodista de Angola, natural do Huambo, 
-                                Angola. Possui graduação e Mestrado em Fisioterapia pela Universidade Metodista de Piracicaba, 
-                                Doutorado em Fisioterapia pela Universidade Federal de São Carlos, ambos no Brasil. Naquele país, 
-                                foi docente e pesquisador nos cursos de graduação e de especialização e coordenou o Programa Regional 
-                                de Iniciação Científica das Faculdades Anhanguera.
+                            Tiago Caungo Mutombo, Vice-Reitor da Universidade Metodista de Angola, é natural do município de Malanje–Bairro do Ritondo, província de Malanje. Graduado em Ciências da Educação com especialização em Ensino de História, pelo Instituto Superior de Ciências da Educação de Luanda, antiga unidade orgânica da Universidade Agostinho Neto. É Doutor em Ciências Históricas, pela Facultat de Ciencias Sociales da Universidad de Oriente da República de Cuba. Pós Doutorando em Didática do Ensino Superior pela mesma universidade. É também especialista em Metodologia de Investigação Histórica. 
+                            É Membro da Associação Portuguesa dos Historiadores Económicos e Sociais (Portugal); Membro da equipe editorial da Revista electrónica Discente História, da Universidade Federal Recôncavo da Bahia, República Federativa do Brasil; Membro do Conselho Científico da Revista Angolana de Extensão Universitária, afecta a Escola Superior Pedagógica do Bengo, onde foi igualmente Coordenador do Projecto de Investigação Científica RESIOVA; Editor Chefe da Revista Kwijiya, afecto a Faculdade de Teologia da Universidade Metodista de Angola; 
+                            Membro da Comissão Instaladora da Associação Angolana dos Historiadores; Professor convidado do Mestrado em Ensino de História de Angola do ISCED-LUANDA, entre outras actividades já exercidas no subsistema do ensino geral e universitário de Angola. Na Metodista, além de professor da graduação e pós-graduação, exerceu a função de Vice-Reitor para Área Científica, Pós-graduação e Extensão. 
+                            É autor de várias publicações científicas na área de História e Ciências da Educação, com efectiva participação em congressos, conferências, simpósios e outros eventos científicos.
 
-                                No seu percurso na Metodista de Angola, além de docente/pesquisador nos 
-                                cursos de graduação e pós-graduação, foi director do Centro de Estudos e 
-                                Investigação Científica –CEIC e vice-reitor para área científica (2015 a 2017). 
-                                Tem produção científica sustentada em publicação de artigos, participação em congressos e prémios 
-                                nacionais e internacionais. Actualmente, o vice-reitor é também coordenador do grupo de pesquisa Eletro-Termo-Fototerapia e 
-                                Plasticidade Neuromuscular da Metodista de Angola.
+
+                            </p>
+                    </Col>
+                </Row>
+            </Container>
+            {/* <hr></hr> */}
+            {/* <Container className="PerfilReitoria">
+                <Row>
+                    <Col md="4">
+                        <Image src={ImgViceReitor1} thumbnail/>
+                    </Col>
+                    <Col md="8">
+                            <h3>VICE-REITOR</h3>
+                            <h5>ÁREA CIENTIFICA, PÓS-GRADUAÇÃO E EXTENSÃO</h5>
+                            <br/>
+                            <p>
+                            Tiago Caungo Mutombo, Vice Reitor para Área Científica, Pós-graduação e Extensão da Universidade Metodista de Angola, é natural do município de Malanje–Bairro do Ritondo, província de Malanje. Graduado em Ciências da Educação com especialização em Ensino de História, pelo Instituto Superior de Ciências da Educação de Luanda, antiga unidade orgânica da Universidade Agostinho Neto. É Doutor em Ciências Históricas, pela Facultat de Ciencias  Sociales da Universidad de Oriente da República de Cuba. Pós Doutorando em Didática do Ensino Superior pela mesma universidade. É também especialista em Metodologia de Investigação Histórica.
+É Membro da Associação Portuguesa dos Historiadores Económicos e Sociais (Portugal); Membro da equipe editorial da Revista electrónica Discente História, da Universidade Federal Recôncavo da Bahia, República Federativa do Brasil;  Membro do Conselho Científico da Revista Angolana de Extensão Universitária, afecta a Escola Superior Pedagógica do Bengo, onde foi igualmente Coordenador do Projecto de Investigação Científica RESIOVA; Editor Chefe da Revista Kwijiya, afecto a Faculdade de Teologia da Universidade Metodista de Angola; Membro da Comissão Instaladora da Associação Angolana dos Historiadores; Professor convidado do Mestrado em Ensino de História de Angola do ISCED-LUANDA, entre outras actividades já exercidas no subsistema do ensino geral e universitário do nosso país. 
+É Professor da graduação e pós-graduação da Metodista. É autor de várias publicações científicas na área de História e Ciências da Educação, com efectiva participação em congressos, conferências, simpósios e outros eventos científicos.
+
                             </p>
                     </Col>
                 </Row>
@@ -59,31 +77,6 @@ const Reitoria = () => {
 
             
             
-
-
-
-
-                {/* <div class="row">
-                    <div class="col-md-4">
-                        <div class="teachers-img_block">
-                            <img src="~/images/blog/Vice-Reitor.jpg" class="img-fluid" alt="#"></>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-md-12" style="Margin-top:10%">
-                                <div class="teacher-profile_block qualification_detaile">
-                                    <h4>Vice-reitor</h4>
-                                    <p style="text-align:justify">
-                                        João Manuel da Costa Canoquena, vice-reitor da Universidade Metodista de Angola.Natural de Luanda, Angola, onde foi professor de 1986 a 1991, imigrou para Austrália, em 1992, onde concluiu o Bacharelato e deu continuidade aos estudos.Doutor/PhD em Filosofia, Mestre em Educação, Mestre em Administração de Empresas, Bacharel em Educação, está em fase de conclusão do Pós-Doutoramento em Economia Financeira.Desde o ano de 2002 a 2018, exerceu activamente a área de Gestão Educacional, tendo já sido Director e Administrador em várias Escolas, todas na Austrália.É também Revisor de periódicos acadêmicos, Professor Universitário (Austrália), Escritor de romance histórico, autor de vários Artigos e Relatórios Científicos e Revisor de Revistas Cientificas.Tem três livros publicados, todos em língua inglesa.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div> */}
 
         </>   
     )

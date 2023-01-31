@@ -22,7 +22,7 @@ const Faculdade2 = () => {
                         centrado no estudante. Distingue-se pela sua habilidade de renovação e pelo seu modelo 
                         académico diferenciador que está reforçado nos princípios da qualidade, da internacionalização
                          e da aproximação às empresa e o mercado de trabalho. Confere graus académicos de licenciatura
-                          nos cursos de Direito, Economia, Gestão e Administração de Empresas, Língua Portuguesa e 
+                          nos cursos de Direito, Ambiente e Gestão do Território, Economia, Gestão e Administração de Empresas, Língua Portuguesa e 
                           Comunicação e Turismo Gestão Hoteleira e Animação. <br/> <br/>A preparação dos estudantes visa, 
                           transforma-los nos profissionais globais do futuro, com competências para alcançar o 
                           sucesso profissional nas seguintes áreas: Advocacia, consultoria jurídica, planeamento 
@@ -49,6 +49,8 @@ const Faculdade2 = () => {
                                 <Link to="/curso11"><span className='spnFcl'>Economia</span></Link>                                
                                 <hr></hr>
                                 <Link to="/curso10"><span className='spnFcl'>Turismo e Gestão Hoteleira</span></Link>
+                                <hr></hr>
+                                <Link to="/curso3"><span className='spnFcl'>Ambiente e Gestão do Território</span></Link>
                                 
                                 
                             </Card.Body>

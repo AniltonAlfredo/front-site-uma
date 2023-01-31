@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
-import img1 from '../assets/Banner-Agro.jpg'
+import img1 from '../assets/Natal-2022.jpg'
 import img2 from '../assets/banner-pós laboral_.jpg'
-import img3 from '../assets/banner-curso-exame-de-acesso-mestrados.jpg'
+import img3 from '../assets/banner--regresso-a-aulas1.jpg'
 import img4 from '../assets/Profas.jpg'
 import img5 from '../assets/banner-curso-exame-de-acesso.jpg'
 import img6 from '../assets/banner-ouvidoria.jpg'
@@ -14,6 +14,13 @@ function Carrocel() {
     return (    
       <Carousel>
 
+      <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img3}
+              alt="Five slide"
+            />
+        </Carousel.Item>
 
         <Carousel.Item>
             <Link className="LinkStyle" to="/ouvidoria">
@@ -24,7 +31,7 @@ function Carrocel() {
                     />
             </Link>     
         </Carousel.Item>
-        
+
         {/* <Carousel.Item>
           <a target="_blank" href="https://mutue.ao/register">
             <img
@@ -35,18 +42,10 @@ function Carrocel() {
           </a>
         </Carousel.Item> */}
 
-        <Carousel.Item>
-          <a target="_blank" href="http://www.universidademetodista.ao/static/media/Edital-Pos.78691b33.pdf">
-            <img
-              className="d-block w-100"
-              src={img3}
-              alt="Five slide"
-            />
-          </a>
-        </Carousel.Item>
+        
 
 
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <Link className="LinkStyle" to="/poslaboral">
             <img
               className="d-block w-100"
@@ -54,9 +53,9 @@ function Carrocel() {
               alt="Five slide"
             />
           </Link>
-        </Carousel.Item>
+        </Carousel.Item> */}
 
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <Link className="LinkStyle" to="/curso22">
             <img
               className="d-block w-100"
@@ -64,21 +63,30 @@ function Carrocel() {
               alt="Five slide"
             />
           </Link>
-        </Carousel.Item>
+        </Carousel.Item> */}
 
         
 
         
         
         <Carousel.Item>
-          <a target="_blank" href="https://mutue.ao/candidatura_docente/inicial">
             <img
               className="d-block w-100"
               src={img4}
               alt="First slide"
             />
-          </a>
+          
         </Carousel.Item>
+
+        {/* <Carousel.Item>
+          <a target="_blank" href="https://mutue.ao/candidatura_docente/inicial">
+            <img
+              className="d-block w-100"
+              src={img1}
+              alt="First slide"
+            />
+          </a>
+        </Carousel.Item> */}
 
         {/* <Carousel.Item>
           <img

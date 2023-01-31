@@ -8,6 +8,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Modal from 'react-bootstrap/Modal';
 
+import DOC from './decretoOuvidoria.pdf'
 
 
 const Ouvidoria = () => {
@@ -38,7 +39,7 @@ const Ouvidoria = () => {
             <Container className='FaculdadeHeader'>
                 <Row>
                 
-                    <Col md="12"><br/><h1>OUVIDORIA</h1><br/>  </Col>        
+                    <Col md="12"><br/><h1>OUVIDORIA</h1><a target="_blank" href={DOC}>DESPACHO INSTITUCIONAL</a><br/> <br/>  </Col>        
                                
                 </Row>
             </Container>

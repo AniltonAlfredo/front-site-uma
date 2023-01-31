@@ -9,6 +9,9 @@
     font-size: 40px;
     text-decoration: underline;
 }
+.PerfilReitoria h5{
+    font-style: italic;
+}
 .ImgStyle{
     height: min-content;
 }

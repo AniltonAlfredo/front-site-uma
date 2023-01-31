@@ -1,0 +1,13 @@
+.Pastoral{
+    padding: 20px;     
+    display: flex;
+    text-align: center;
+    place-content: center;
+}
+.Pastoral h3{
+    padding: 20px;
+}
+.Pastoral p{
+    font-size: 23px;
+    text-align: justify;
+}

@@ -96,7 +96,7 @@ function App() {
           <Route path="/posgraduacao" element={<PosGraduacao/>} />
           <Route path="/poslaboral" element={<PosLaboral/>} />
           <Route path="/ouvidoria" element={<Ouvidoria/>}/>
-          <Route path="/pastoral" />
+          <Route path="/pastoral" element={<Pastoral/>}/>
         </Routes>
         <Rodape/>
         <Direitos/>

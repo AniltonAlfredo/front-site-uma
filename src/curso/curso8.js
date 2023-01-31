@@ -5,7 +5,7 @@ import Doc from '../assets/PLANO CURRICULAR/AGE.pdf'
 import Doc1 from '../assets/PLANO CURRICULAR/GAE RAM.pdf'
 import Doc2 from '../assets/PLANO CURRICULAR/GAE. RAM GEST.pdf'
 import Doc3 from '../assets/PLANO CURRICULAR/GAE. RAM MARK.pdf'
-
+import Doc4 from '../assets/PLANO CURRICULAR/DECRETO EXECUTIVO.pdf'
 
 
 const Curso8 = () => {
@@ -49,7 +49,10 @@ planeamento e controle de gestão e marketing.
                                 <td>Plano Curricular</td>
                                 <td><a target="_blank" href={Doc}>Geral</a>  |  <a target="_blank" href={Doc1}>Ramo 1</a>  |  <a target="_blank" href={Doc2}>Ramo 2</a>  |  <a target="_blank" href={Doc3}>Ramo 3</a></td>
                                 </tr>
-                                
+                                <tr>
+                                <td>Decreto Executivo</td>
+                                <td><a target="_blank" href={Doc4}>pdf</a></td>
+                                </tr>
                             </tbody>
                         </Table>
                     </Col>

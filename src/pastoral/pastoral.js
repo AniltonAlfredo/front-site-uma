@@ -14,59 +14,53 @@ const Pastoral = () => {
 
     return (
         <Container fluid >
-            <Container className='FaculdadeHeader'>
+           
+           <Container className="Pastoral">
                 <Row>
-                    <Col md="12"><h1>Ambiente e Gestão do Território</h1></Col>                     
-                </Row>
-            </Container>
 
-            <Container>
-                <Row>
-                    <Col md="8">
-                        <p className='pfacul'>
-                        O curso de Ambiente e Gestão do Território, da Metodista de Angola, 
-                        forma profissionais com sensibilidade para os dados, factos e realidade 
-                        concreta que caracteriza o território, buscando suprir necessidades básicas
-                         comuns ao cidadão, ligadas, sobretudo, ao saneamento básico e à preparação
-                          da sociedade relativamente às questões ambientais. <br/><br/> Tem por objectivo 
-                          intervenções que busquem a transformação de áreas rurais e a modernização
-                           das áreas urbanas, para promover o bem-estar, a coesão social e o 
-                           desenvolvimento económico. Assim, também, a protecção e preservação do 
-                           património cultural, evitando que não haja desfasamento entre o pretendido 
-                           e o culturalmente aceite. Igualmente, o curso forma técnicos para as novas
-                            demandas motivadas pela criação iminente das autarquias, ou seja, aptos a 
-                            trabalhar nos domínios do território/urbanismo, planos e actividades de 
-                            consultoria, gestão e direcção de projectos urbanos e rurais, planificação, 
-                            coordenação e avaliação de projectos de desenvolvimento territorial. 
-                        </p>                
-                    </Col>
-                    <Col md="4">
-                        <Table striped bordered hover>
-                            <tbody>
-                                <tr>
-                                <td>Mensalidade</td>
-                                <td>45.753,20 kz</td>
-                                </tr>
-                                <tr>
-                                <td>Duração</td>
-                                <td>4 anos</td>
-                                </tr>
-                                <tr>
-                                <td>Plano Curricular</td>
-                                </tr>
-                                
-                            </tbody>
-                        </Table>
+                    <Col md="12" >
+                        <h3>PASTORAL UNIVERSITÁRIA</h3>
+                        <p>
+                            É mais um serviço que a Universidade Metodista de Angola presta à sua comunidade académica.<br/>
+                            <br/>
+                            Com actividades voltadas para a promoção do desenvolvimento humano de estudantes e trabalhadores(as),
+                            a Pastoral visa a formação ética e solidária de profissionais, para terem compromisso com a construção
+                             de uma sociedade mais sintonizada com os valores do evangelho, de justiça e igualdade.
+                        </p>
+                    <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>ACOLHIMENTO</Accordion.Header>
+                            <Accordion.Body>
+                             Ao zelar, aconselhar e acompanhar estudantes e trabalhadores(as), em situações difíceis
+                             e nos momentos de alegria<br/>
+                            </Accordion.Body>
+                        </Accordion.Item>
+
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header>EVANGELIZAÇÃO</Accordion.Header>
+                            <Accordion.Body>
+                             Ao zelar pelos valores éticos de toda a comunidade; ao promover o diálogo entre a fé e a 
+                             ciência; ao oferecer espaço de encontro e diálogo para as diferentes expressão de fé 
+                             manifestadas no campus; ao gerar consciência de responsabilidade frente ao ambiente e toda 
+                             a natureza;<br/>
+                            </Accordion.Body>
+                        </Accordion.Item>
+
+                        <Accordion.Item eventKey="2">
+                            <Accordion.Header>RESPONSABILIDADE SOCIAL</Accordion.Header>
+                            <Accordion.Body>
+                             Ao actuar em parceria efectiva com os demais projectos da própia Universidade(ensino, 
+                             investigação científica e extensão); ao articular pessoas, instituições e movimentos sociais
+                              nas lutas por vida digna e por um mundo mais fraterno<br/>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                                    
                     </Col>
                 </Row>
 
-                <Row>
-                <Col md="6" >
-                    
-                </Col>
-                </Row>
+                <br/>
             </Container>
-            
               
             
         </Container>       

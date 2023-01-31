@@ -4,7 +4,7 @@ import imagem from '../assets/703B0201.jpg'
 import Doc from '../assets/PLANO CURRICULAR/DIREITO PDF.pdf'
 import Doc1 from '../assets/PLANO CURRICULAR/DIR. RAMO JURIDIC.pdf'
 import Doc2 from '../assets/PLANO CURRICULAR/DIR RAM JURID. PUBL. PDF.pdf'
-
+import Doc3 from '../assets/PLANO CURRICULAR/DECRETO EXECUTIVO.pdf'
 
 const Curso12 = () => {
 
@@ -46,7 +46,10 @@ const Curso12 = () => {
                                 <td>Plano Curricular</td>
                                 <td><a target="_blank" href={Doc}>pdf</a>  |  <a target="_blank" href={Doc1}>Ramo 1</a>  |E  <a target="_blank" href={Doc2}>Ramo 2</a></td>
                                 </tr>
-                                
+                                <tr>
+                                <td>Decreto Executivo</td>
+                                <td><a target="_blank" href={Doc3}>pdf</a></td>
+                                </tr>
                             </tbody>
                         </Table>
                     </Col>

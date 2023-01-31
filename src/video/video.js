@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './video.css'
+import vd from '../assets/Natal.mp4'
 
 const Video = () => {
     return (
@@ -8,8 +9,12 @@ const Video = () => {
             <br/>
             <Row>
                 <Col md="12" className="p">                    
-                <iframe className="video" src="https://www.youtube.com/embed/fspoJ8CK7Rg" 
-                    title="YouTube video player" frameborder="0" allowfullscreen width="100%"></iframe>
+                {/* <iframe className="video" src="https://www.youtube.com/embed/eDEQdOCSsSs" */}
+                <iframe className="video" src="https://youtube.com/embed/Nm4ht2lL7fE?feature=share"
+               
+                    title="YouTube video player" frameborder="0" allowfullscreen="false" width="30%"></iframe>
+
+                
                 </Col>
             </Row>
         </Container>

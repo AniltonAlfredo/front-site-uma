@@ -11,7 +11,7 @@ const Faculdade4 = () => {
         <Container fluid >
             <Container className='FaculdadeHeader'>
                 <Row>
-                    <Col md="12"><h1>Saúde e Bem-Estar</h1></Col>                     
+                    <Col md="12"><h1>Teologia</h1></Col>                     
                 </Row>
             </Container>
 
