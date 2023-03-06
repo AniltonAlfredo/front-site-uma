@@ -1,0 +1,14 @@
+.NotGeral {
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(175, 175, 175);
+}
+
+.register-container{
+    padding: 10px;
+}
+.register-input{
+    margin: 10px;
+}
+
+

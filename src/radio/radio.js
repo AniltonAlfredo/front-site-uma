@@ -3,9 +3,9 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import  './radio.css'
 import { FaMicrophoneAlt } from "react-icons/fa";
-import audio1 from '../radio/UNIVERSIDADE EM MOVIMENTO 30.01.2023.mp3'
-import audio2 from '../radio/UNIVERSIDADE EM MOVIMENTO 25.01.2023.mp3'
-import audio3 from '../radio/UNIVERSIDADE EM MOVIMENTO 27.01.2023.mp3'
+import audio1 from '../radio/UNIVERSIDADE EM MOVIMENTO 13.02.2023.mp3'
+import audio2 from '../radio/UNIVERSIDADE EM MOVIMENTO 15.02.2023.mp3'
+import audio3 from '../radio/UNIVERSIDADE EM MOVIMENTO 10.02.2023.mp3'
 
 function Radio() { 
   return (
@@ -19,21 +19,21 @@ function Radio() {
 
             <Row className="rowradio">
                 <Col md="4">
-                    <span class="sr-only">30.01.2023<br/>Segunda-feira</span><br/>
+                    <span class="sr-only">13.02.2023<br/>Segunda-feira</span><br/>
                     <audio controls>                        
                         <source src={audio1} type="audio/mp3">                        
                         </source>
                     </audio>
                 </Col>
                 <Col md="4">
-                    <span class="sr-only">25.01.2023<br/>Quarta-feira</span><br/>
+                    <span class="sr-only">15.02.2023<br/>Quarta-feira</span><br/>
                     <audio controls>                        
                         <source src={audio2} type="audio/mp3">                        
                         </source>
                     </audio>
                 </Col>
                 <Col md="4">
-                    <span class="sr-only">27.01.2023<br/>Sexta-feira</span><br/>
+                    <span class="sr-only">10.02.2023<br/>Sexta-feira</span><br/>
                     <audio controls>                        
                         <source src={audio3} type="audio/mp3">                        
                         </source>

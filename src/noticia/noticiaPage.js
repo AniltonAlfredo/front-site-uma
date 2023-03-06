@@ -29,7 +29,7 @@ const News = () => {
             <>
                 <Col md="4" className="NotGeral">
                             {/* <img src={news.img} alt={news.titulo} width="400px" height="300px" /> */}
-                            {/* <img src={news.img} alt="" width="400px"/> */}
+                            <img src={news.img} alt="" width="400px"/>
                             <Link to={`/noticia/${news.codigo}`}> <h5>{news.titulo}</h5></Link>
                             {/* <p>{Moment(news.data).format('DD MMMM YYYY')}</p> */}
                 </Col>

@@ -101,6 +101,9 @@ function NavBar() {
 
                 <NavDropdown.Item target="_blank" href="https://mutue.ao/candidatura_docente/inicial"  className="gf">
                   Candidatura Docente</NavDropdown.Item>
+                  <NavDropdown.Item className="ItemStyle">
+                    <Link className="LinkStyle" to="/admin-uma-2023">Interno</Link>
+                  </NavDropdown.Item>
                 {/* <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
               </NavDropdown>

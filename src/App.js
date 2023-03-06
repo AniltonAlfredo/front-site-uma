@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './navbar/navbar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes  } from 'react-router-dom';
 import { useState } from 'react';
 
 import Direitos from './direitos/direitos';
@@ -44,6 +44,7 @@ import PosLaboral from './posLaboral/poslaboral';
 import Modal from './popup/modal';
 import Ouvidoria from './ouvidoria/ouvidoria';
 import Pastoral from './pastoral/pastoral';
+import Admin_Uma from './admin/admin';
 
 
 
@@ -97,6 +98,10 @@ function App() {
           <Route path="/poslaboral" element={<PosLaboral/>} />
           <Route path="/ouvidoria" element={<Ouvidoria/>}/>
           <Route path="/pastoral" element={<Pastoral/>}/>
+          <Route path="/admin-uma-2023" element={<Admin_Uma/>}/>
+
+          
+
         </Routes>
         <Rodape/>
         <Direitos/>
