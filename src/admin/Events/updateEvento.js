@@ -4,14 +4,13 @@ import { useState } from "react";
 function UEvento()
    {
         // const [codigo, setCodigo] = useState("");
-        const [codigo, setCodigo] = useState("");
+        // const [codigo, setCodigo] = useState("");
         const [titulo, setTitulo] = useState("");
         const [resumo, setResumo] = useState("");
         const [descricacao, setDescricao] = useState("");
         const [tag, setTag] = useState("");
         const [img, setImg] = useState("");
         const [data, setData] = useState("");
-        const [destaque, setDestaque] = useState(false);
 
  
         async function handleSubmit(event)
@@ -19,7 +18,7 @@ function UEvento()
             event.preventDefault();
             try
             {
-                await axios.post("http://localhost:8080/noticia/add",
+                await axios.post("http://localhost:8080/evento/update",
                 {
                     
                     titulo: titulo,
@@ -27,8 +26,7 @@ function UEvento()
                     resumo: resumo,
                     descricacao: descricacao,
                     tag: tag,
-                    img: img,
-                    destaque: destaque
+                    img: img
                 });
                 alert("Notícia postada com sucesso!");
                 // setCodigo("");
@@ -37,7 +35,6 @@ function UEvento()
                 setResumo("");
                 setDescricao("");
                 setTag("");
-                setDestaque("");
                 setImg("");
             }
             catch(err)
@@ -117,14 +114,7 @@ function UEvento()
                     }}          
                 />
 
-                <input type="boolean"
-                name="destaque"
-                placeholder="Destaque"
-                onChange={(event) =>
-                    {
-                        setDestaque(event.target.value);      
-                    }}          
-                />
+                
 
                 <button type="submit">Criar</button>
 

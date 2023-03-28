@@ -19,7 +19,7 @@ function CEvento()
             try
             {
                 
-                await axios.post("http://localhost:8080/evento/add",
+                await axios.post("http://196.249.246.165:8080/evento/add",
                 {
                     
                     titulo: titulo,
@@ -28,9 +28,15 @@ function CEvento()
                     descricacao: descricacao,
                     tag: tag
                 });
+                setTitulo("");
+                setData("");
+                setDescricao("");
+                setResumo("");
+                setTag("");
                 alert("Evento postada com sucesso!");
+                
                 // setCodigo("");
-                window.location.reload();
+                // window.location.reload();
             }
             catch(err)
             {
@@ -70,6 +76,19 @@ function CEvento()
                                 setData(event.target.value);      
                             }}
                             />
+
+                            <Form.Group>
+                                <Form.Label>Resumo</Form.Label>
+                                
+                                <textarea class="form-control"  
+                                rows="10"
+                                placeholder=""
+                                onChange={(event) =>
+                                    {
+                                        setResumo(event.target.value);      
+                                    }}  
+                                ></textarea>
+                            </Form.Group>
 
                             <Form.Group>
                                 <Form.Label>Descrição</Form.Label>

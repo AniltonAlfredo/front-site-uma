@@ -9,10 +9,12 @@ const Video = () => {
             <br/>
             <Row>
                 <Col md="12" className="p">                    
-                {/* <iframe className="video" src="https://www.youtube.com/embed/eDEQdOCSsSs" */}
-                <iframe className="video" src="https://youtube.com/embed/Nm4ht2lL7fE?feature=share"
-               
-                    title="YouTube video player" frameborder="0" allowfullscreen="false" width="30%"></iframe>
+                
+                {/* <iframe className="video" src="https://youtube.com/embed/Nm4ht2lL7fE?feature=share" */}
+                <iframe className="video" src="https://www.youtube.com/embed/eDEQdOCSsSs"
+                    title="YouTube video player" frameborder="0" allowfullscreen="false" width="30%">
+                        
+                    </iframe>
 
                 
                 </Col>

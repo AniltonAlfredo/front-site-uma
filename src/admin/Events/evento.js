@@ -38,7 +38,7 @@ const Listar = () => {
             try
             {
                 
-                await axios.put("http://localhost:8080/evento/update",
+                await axios.put("http://196.249.246.165:8080/evento/update",
                 {
                     codigo: selectedEvento.codigo,
                     titulo: titulo,
@@ -49,7 +49,7 @@ const Listar = () => {
                 });
                 alert("Evento actualizada com sucesso!");
                 // setCodigo("");
-                window.location.reload();
+                // window.location.reload();
             }
             catch(err)
             {
@@ -58,7 +58,7 @@ const Listar = () => {
         }
 
     const fecthEvent = () => {
-        axios.get("http://localhost:8080/evento/all").then(res=>{
+        axios.get("http://196.249.246.165:8080/evento/all").then(res=>{
             console.log(res);
             setEvento(res.data);
             
@@ -98,7 +98,7 @@ const Listar = () => {
                             </Button>
                             {/* <button onClick={()=>{alert("Eliminar evento "+titulo+" codigo "+codigo)}}>Eliminar</button> */}
                             <Button variant="danger" onClick={
-                                ()=>{axios.delete(`http://localhost:8080/evento/${codigo}`,window.location.reload())}
+                                ()=>{axios.delete(`http://196.249.246.165:8080/evento/${codigo}`)}
                                         }> {/* Passa a evento como parâmetro ao clicar no botão */}
                                 Eliminar
                             </Button>
@@ -123,7 +123,7 @@ const Listar = () => {
                                 <Form.Label>Título</Form.Label>
                                 <Form.Control 
                                     type="text" 
-                                    placeholder={selectedEvento.titulo}
+                                    placeholder=""
                                     onChange={(event) => setTitulo(event.target.value)}
                                 
                                 />
@@ -133,7 +133,7 @@ const Listar = () => {
                             <input type="date"
                             className="register-input"
                             name="data"
-                            placeholder={selectedEvento.data}
+                            placeholder=""
                             // value={selectedEvento.data}
                             onChange={(event) =>
                             {
@@ -142,11 +142,24 @@ const Listar = () => {
                             />
 
                             <Form.Group>
+                                <Form.Label>Resumo</Form.Label>
+                                
+                                <textarea class="form-control"  
+                                rows="10"
+                                placeholder=""
+                                onChange={(event) =>
+                                    {
+                                        setResumo(event.target.value);      
+                                    }}  
+                                ></textarea>
+                            </Form.Group>
+
+                            <Form.Group>
                                 <Form.Label>Descrição</Form.Label>
                                 
                                 <textarea class="form-control"  
                                 rows="10"
-                                placeholder={selectedEvento.descricao}
+                                placeholder=""
                                 onChange={(event) =>
                                     {
                                         setDescricao(event.target.value);      
@@ -157,7 +170,7 @@ const Listar = () => {
                             <Form.Group className="mb-3">
                                 <Form.Label>Tag</Form.Label>
                                 <Form.Control  
-                                    placeholder={selectedEvento.tag}
+                                    placeholder=""
                                     onChange={(event) =>
                                         {
                                             setTag(event.target.value);      

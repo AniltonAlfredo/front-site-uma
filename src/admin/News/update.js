@@ -19,6 +19,7 @@ function UNews(news, onUpdated)
             const updatedNews = {
                 codigo: news.codigo,
                 titulo: titulo,
+                data: data,
                 resumo: resumo,
                 descricao: descricao,
                 destaque: destaque,

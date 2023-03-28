@@ -8,7 +8,7 @@ function CNews()
         const [codigo, setCodigo] = useState("");
         const [titulo, setTitulo] = useState("");
         const [resumo, setResumo] = useState("");
-        const [descricacao, setDescricao] = useState("");
+        const [descricao, setDescricao] = useState("");
         const [tag, setTag] = useState("");
         const [img, setImg] = useState("");
         const [data, setData] = useState("");
@@ -22,20 +22,28 @@ function CNews()
             try
             {
                 
-                await axios.post("http://localhost:8080/noticia/add",
+                await axios.post("http://196.249.246.165:8080/noticia/add",
                 {
                     
                     titulo: titulo,
                     data: data,
                     resumo: resumo,
-                    descricacao: descricacao,
+                    descricao: descricao,
                     tag: tag,
                     img: img,
                     destaque: destaque
                 });
+                setTitulo("");
+                setData("");
+                setDescricao("");
+                setResumo("");
+                setTag("");
+                setImg("");
+                setDestaque("");
                 alert("Notícia postada com sucesso!");
+                
                 // setCodigo("");
-                window.location.reload();
+                // window.location.reload();
             }
             catch(err)
             {
@@ -94,6 +102,21 @@ function CNews()
                                 onChange={(event) =>
                                     {
                                         setDescricao(event.target.value);      
+                                    }}  
+                                ></textarea>
+                            </Form.Group>
+
+                            <Form.Group>
+                                <Form.Label>
+                                    Resumo
+                                </Form.Label>
+                                
+                                <textarea class="form-control"  
+                                rows="10"
+                                placeholder=""
+                                onChange={(event) =>
+                                    {
+                                        setResumo(event.target.value);      
                                     }}  
                                 ></textarea>
                             </Form.Group>

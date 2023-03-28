@@ -31,7 +31,7 @@ const Listar = () => {
             try
             {
                 
-                await axios.put("http://localhost:8080/noticia/update",
+                await axios.put("http://196.249.246.165:8080/noticia/update",
                 {
                     codigo: selectedNot.codigo,
                     titulo: titulo,
@@ -44,7 +44,7 @@ const Listar = () => {
                 });
                 alert("Notícia actualizada com sucesso!");
                 // setCodigo("");
-                window.location.reload();
+                //window.location.reload();
             }
             catch(err)
             {
@@ -64,7 +64,7 @@ const Listar = () => {
 
 
     const fecthNoticias = () => {
-        axios.get("http://localhost:8080/noticia/all").then(res=>{
+        axios.get("http://196.249.246.165:8080/noticia/all").then(res=>{
             console.log(res);
             setNot(res.data);
             
@@ -108,11 +108,32 @@ const Listar = () => {
                                 Atualizar
                             </Button>
                             {/* <button onClick={()=>{alert("Eliminar notícia "+titulo+" codigo "+codigo)}}>Eliminar</button> */}
-                            <Button variant="danger" onClick={
-                                ()=>{axios.delete(`http://localhost:8080/noticia/${codigo}`,window.location.reload())}
-                                        }> {/* Passa a notícia como parâmetro ao clicar no botão */}
+
+                            <Button 
+                                variant="danger" 
+                                onClick={() => {
+                                    axios.delete(`http://196.249.246.165:8080/noticia/${codigo}`)
+                                    .then(response => {
+                                        // código para lidar com a resposta de sucesso da requisição
+                                        alert("Eliminado com sucesso!");
+                                        
+                                    })
+                                    .catch(error => {
+                                        // código para lidar com o erro da requisição
+                                        alert("Erro ao eliminar!")
+                                        console.error(error);
+                                    });
+                                    }}
+                                >
                                 Eliminar
                             </Button>
+
+                            {/* <Button variant="danger" onClick={
+                                ()=>{axios.delete(`http://196.249.246.165:8080/noticia/${codigo}`)}
+                                        }>   
+                                Eliminar
+                            </Button>*/}
+
                             {/* <button onClick={
                                 ()=>{axios.delete(`http://localhost:8080/noticia/${codigo}`,window.location.reload())}
                                         }
@@ -130,20 +151,24 @@ const Listar = () => {
                                
                         
                         <Form onSubmit={handleSubmit}>
+
                             <Form.Group className="mb-3">
                                 <Form.Label>Título</Form.Label>
                                 <Form.Control 
                                     type="text" 
-                                    placeholder={selectedNot.titulo}
+                                    placeholder=""
+                                    // value={selectedNot.titulo}
                                     onChange={(event) => setTitulo(event.target.value)}
                                 
                                 />
                             </Form.Group>
+
                             <Form.Group className="mb-3">
                                 <Form.Label>Link da imagem</Form.Label>
                                 <Form.Control 
                                     type="text" 
-                                    placeholder={selectedNot.img}
+                                    placeholder=""
+                                    // value={selectedNot.img}
                                     onChange={(event) => setImg(event.target.value)}
                                 
                                 />
@@ -153,7 +178,7 @@ const Listar = () => {
                             <input type="date"
                             className="register-input"
                             name="data"
-                            placeholder={selectedNot.data}
+                            placeholder=""
                             // value={selectedNot.data}
                             onChange={(event) =>
                             {
@@ -162,11 +187,26 @@ const Listar = () => {
                             />
 
                             <Form.Group>
+                                <Form.Label>Resumo</Form.Label>
+                                
+                                <textarea class="form-control"  
+                                rows="10"
+                                placeholder=""
+                                value={selectedNot.resumo}
+                                onChange={(event) =>
+                                    {
+                                        setResumo(event.target.value);      
+                                    }}  
+                                ></textarea>
+                            </Form.Group>
+
+                            <Form.Group>
                                 <Form.Label>Descrição</Form.Label>
                                 
                                 <textarea class="form-control"  
                                 rows="10"
-                                placeholder={selectedNot.descricao}
+                                placeholder=""
+                                // value={selectedNot.descricao}
                                 onChange={(event) =>
                                     {
                                         setDescricao(event.target.value);      
@@ -177,7 +217,8 @@ const Listar = () => {
                             <Form.Group className="mb-3">
                                 <Form.Label>Destaque</Form.Label>
                                 <Form.Control  
-                                    placeholder={selectedNot.destaque}
+                                    placeholder=""
+                                    // value={selectedNot.destaque}
                                     onChange={(event) =>
                                         {
                                             setDestaque(event.target.value);      
@@ -192,7 +233,8 @@ const Listar = () => {
                             <Form.Group className="mb-3">
                                 <Form.Label>Tag</Form.Label>
                                 <Form.Control  
-                                    placeholder={selectedNot.tag}
+                                    placeholder=""
+                                    // value={selectedNot.tag}
                                     onChange={(event) =>
                                         {
                                             setTag(event.target.value);      
@@ -214,12 +256,7 @@ const Listar = () => {
                     )}
                 </Modal.Body>
                 {/* <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                    Fechar
-                    </Button>
-                    <Button variant="primary" onClick={handleClose}>
-                    Salvar
-                    </Button>
+                    <p> Preenche todos os campos!</p>
                 </Modal.Footer> */}
                 </Modal>
             </>
