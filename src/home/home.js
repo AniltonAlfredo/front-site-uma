@@ -35,7 +35,7 @@ function Home() {
         <hr></hr>
         <Evento/>
         <Estatistica/>
-        <Radio/>
+        {/* <Radio/> */}
         <hr></hr>
         <Video/>
         <hr></hr>

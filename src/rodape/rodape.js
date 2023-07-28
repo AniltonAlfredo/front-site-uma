@@ -39,7 +39,7 @@ function Rodape() {
                         <li> <TiMail size="35px"/> geral@uma.co.ao</li>
                         <li> <BsTelephoneForward size="35px"/> +244 942364667</li>
                         <li> <BsTelephoneForward size="35px"/> +244 947716113</li>
-                        <li>  <AiOutlineHome size="35px"/> Agostinho Pedro Neto, esquina com rua Nossa Senhora da Muxima, Bairro Kinaxixi, Luanda.</li>
+                        <li>  <AiOutlineHome size="35px"/> Rua Reverendo Agostinho Pedro Neto, esquina com Nossa Senhora da Muxima, Bairro Kinaxixi, Luanda.</li>
                     </ul>
                 </Col>
                 

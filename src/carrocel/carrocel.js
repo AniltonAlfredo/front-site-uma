@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
 import img1 from '../assets/Natal-2022.jpg'
-import img2 from '../assets/banner-pós laboral_.jpg'
+import img2 from '../assets/banner-convencao-1.jpg'
 import img3 from '../assets/banner--regresso-a-aulas1.jpg'
 import img4 from '../assets/Profas.jpg'
 import img5 from '../assets/banner-curso-exame-de-acesso.jpg'
@@ -14,7 +14,7 @@ function Carrocel() {
     return (    
       <Carousel>
 
-      <Carousel.Item>
+       <Carousel.Item>
             <img
               className="d-block w-100"
               src={img3}
@@ -89,13 +89,13 @@ function Carrocel() {
           </a>
         </Carousel.Item> */}
 
-        {/* <Carousel.Item>
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src={img2}
             alt="Second slide"
           />
-        </Carousel.Item> */}
+        </Carousel.Item>
 
         
 

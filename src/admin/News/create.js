@@ -2,6 +2,9 @@ import axios from "axios";
 import { useState } from "react";
 import { Accordion, Button, Form, Row } from "react-bootstrap";
 
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+
 function CNews()
    {
         // const [codigo, setCodigo] = useState("");
@@ -63,7 +66,7 @@ function CNews()
                                      
                                     <Form onSubmit={handleSubmit}>
                             <Form.Group className="mb-3">
-                                <Form.Label>Título</Form.Label>
+                                <Form.Label><h5>Título</h5></Form.Label>
                                 <Form.Control 
                                     type="text" 
                                     placeholder=""
@@ -71,8 +74,10 @@ function CNews()
                                 
                                 />
                             </Form.Group>
+                            <br/>
+                            <br/>
                             <Form.Group className="mb-3">
-                                <Form.Label>Link da imagem</Form.Label>
+                                <Form.Label><h5>Link da imagem</h5></Form.Label>
                                 <Form.Control 
                                     type="text" 
                                     placeholder=""
@@ -81,7 +86,10 @@ function CNews()
                                 />
                             </Form.Group>
 
-                            Data
+                            <br/>
+                            <br/>
+
+                            <h5>Data</h5>
                             <input type="date"
                             className="register-input"
                             name="data"
@@ -93,26 +101,34 @@ function CNews()
                             }}
                             />
 
+                            <br/>
+                            <br/>
                             <Form.Group>
-                                <Form.Label>Descrição</Form.Label>
+                                <Form.Label><h4>Descrição</h4></Form.Label>
                                 
-                                <textarea class="form-control"  
+                                {/* <textarea class="form-control"  
                                 rows="10"
                                 placeholder=""
                                 onChange={(event) =>
                                     {
                                         setDescricao(event.target.value);      
                                     }}  
-                                ></textarea>
+                                ></textarea> */}
+                                <ReactQuill 
+                                    value={descricao}
+                                    onChange={(content, delta, source, editor) => setDescricao(content)}
+                                    rows="5"
+                                />
                             </Form.Group>
-
+                            <br/>
+                            <br/>
                             <Form.Group>
                                 <Form.Label>
-                                    Resumo
+                                    <h5>Resumo</h5>
                                 </Form.Label>
                                 
                                 <textarea class="form-control"  
-                                rows="10"
+                                rows="5"
                                 placeholder=""
                                 onChange={(event) =>
                                     {
@@ -120,9 +136,11 @@ function CNews()
                                     }}  
                                 ></textarea>
                             </Form.Group>
+                            <br/>
+                            <br/>
 
                             <Form.Group className="mb-3">
-                                <Form.Label>Destaque</Form.Label>
+                                {/* <Form.Label>Destaque</Form.Label>
                                 <Form.Control  
                                     placeholder=""
                                     onChange={(event) =>
@@ -133,11 +151,25 @@ function CNews()
                                 />
                                 <Form.Text className="text-muted">
                                 Para sim=true, para não=false
-                                </Form.Text>
+                                </Form.Text> */}
+                                
+                                
+                                {/* <Form.Label>Destaque</Form.Label> */}
+                                <h5><Form.Check 
+                                    checked={destaque}
+                                    onChange={(event) => {
+                                        setDestaque(event.target.checked);
+                                    }}
+                                    label="Destaque"
+                                /></h5>
+                            
+
                             </Form.Group>
 
+                            <br/>
+                            <br/>
                             <Form.Group className="mb-3">
-                                <Form.Label>Tag</Form.Label>
+                                <Form.Label><h5>Tag</h5></Form.Label>
                                 <Form.Control  
                                     placeholder=""
                                     onChange={(event) =>

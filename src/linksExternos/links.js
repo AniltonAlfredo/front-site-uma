@@ -38,15 +38,15 @@ function Links() {
                         </div>
                     </a> 
                 </Col>
-                <Col md="3" className="Links">
+                {/* <Col md="3" className="Links">
                     <a target="_blank" href="https://governo.gov.ao/ao/">
                         <div >
                             <img src="https://governo.gov.ao/temas/governo/assets/img/logo-angola.png" alt="Governo de Angola" width="300"/>
                         </div>
                     </a> 
-                </Col>
+                </Col> */}
                 <Col md="3" className="Links">
-                    <a target="_blank" href="https://radiometodistakairos.com/">
+                    <a target="_blank" href="http://radiokairosangola.ao/">
                         <div >
                             <img src={kairos} alt="Rádio Kairós" width="250"/>
                         </div>
