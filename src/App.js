@@ -45,6 +45,7 @@ import Modal from './popup/modal';
 import Ouvidoria from './ouvidoria/ouvidoria';
 import Pastoral from './pastoral/pastoral';
 import Admin_Uma from './admin/admin';
+import EscolaIdioma from './posLaboral/escolaidioma';
 
 
 
@@ -57,7 +58,7 @@ function App() {
       
       
 
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <NavBar/>
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -99,6 +100,7 @@ function App() {
           <Route path="/ouvidoria" element={<Ouvidoria/>}/>
           <Route path="/pastoral" element={<Pastoral/>}/>
           <Route path="/admin-uma-2023" element={<Admin_Uma/>}/>
+          <Route path="/escoladeidiomas" element={<EscolaIdioma/>}/>
 
           
 

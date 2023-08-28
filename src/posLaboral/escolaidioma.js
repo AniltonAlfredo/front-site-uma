@@ -9,7 +9,7 @@ import AR from './AR.pdf'
 import EN from './EN.pdf'
 import KMB from './KMB.pdf'
  
-const PosLaboral = () => {
+const EscolaIdioma = () => {
     return (
 
         <Container className="">
@@ -148,4 +148,4 @@ const PosLaboral = () => {
     )
 }
 
-export default PosLaboral;
+export default EscolaIdioma;

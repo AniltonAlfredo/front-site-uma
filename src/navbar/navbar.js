@@ -7,7 +7,7 @@ import LogoHorizontal from '../assets/lgH3c.png'
 import Doc from '../assets/Estatuto e Plano Curricular/uma_regulamento_academico-1.pdf'
 import Doc1 from '../assets/Estatuto e Plano Curricular/EstatutoLV.pdf'
 import Doc2 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO ACADÉMICO REAJUSTADO 2021-2022.pdf'
-import Doc3 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO DO ANO ACADÉMICO 2022-2023 ÚLTIMA VERSÃO.pdf'
+import Doc3 from '../assets/Estatuto e Plano Curricular/CALENDÁRIO ACADÉMICO 2023-2024.pdf'
 
 function NavBar() {
   return (   
@@ -40,7 +40,7 @@ function NavBar() {
                   Calendário 2021/2022
                   </NavDropdown.Item> */}
                 <NavDropdown.Item target="_blank" href={Doc3} className="LinkStyle">
-                  Calendário 2022/2023
+                  Calendário Académico
                   </NavDropdown.Item>
 
                 <NavDropdown.Item target="_blank" href={Doc} className="LinkStyle">
@@ -74,11 +74,11 @@ function NavBar() {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item className="ItemStyle">
-                    <Link className="LinkStyle" to="/poslaboral">Pós-Laboral</Link>
+                    <Link className="LinkStyle" to="/posgraduacao">Pós-Graduação</Link>
                   </NavDropdown.Item>
 
                   <NavDropdown.Item className="ItemStyle">
-                    <Link className="LinkStyle" to="/posgraduacao">Pós-Graduação</Link>
+                    <Link className="LinkStyle" to="/escoladeidiomas">Escola de Idiomas</Link>
                   </NavDropdown.Item>
                 
               </NavDropdown>

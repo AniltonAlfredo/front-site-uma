@@ -10,7 +10,7 @@ const Event = () => {
     const [event, setEvent] = useState([]);
 
     const fecthEvent = () => {
-        axios.get(`http://196.249.246.165:8080/evento/${codigo}`).then(res=>{
+        axios.get(`https://196.249.246.165:8080/evento/${codigo}`).then(res=>{
             console.log(res);
             setEvent(res.data);
             

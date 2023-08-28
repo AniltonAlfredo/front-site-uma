@@ -13,7 +13,7 @@ const Event = () => {
     //Moment = new Moment.locale('pt');    
 
     const fecthEvents = () => {
-        axios.get("http://196.249.246.165:8080/evento/lastsEvents").then(res=>{
+        axios.get("https://196.249.246.165:8080/evento/lastsEvents").then(res=>{
             console.log(res);
             setEvent(res.data.content);
             

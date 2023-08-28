@@ -1,9 +1,15 @@
 .Links{
-    padding-left: 10px;
-    padding-right: 10px;
+    display: flex;
+    align-items: center; /* Alinhar verticalmente */
+    justify-content: center;
     text-align: center;
     align-content: center;
-    padding: 10px;
+    vertical-align: middle;
+    padding: 30px;
+}
+.LinksTTL{
+    text-align: center;
+    align-content: center;
 }
 .Links h1{       
     padding: 30px;

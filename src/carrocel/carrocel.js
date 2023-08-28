@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { Carousel, Image } from "react-bootstrap";
 import "./carrocel.css"
-import img1 from '../assets/Natal-2022.jpg'
-import img2 from '../assets/banner-convencao-1.jpg'
-import img3 from '../assets/banner--regresso-a-aulas1.jpg'
-import img4 from '../assets/Profas.jpg'
-import img5 from '../assets/banner-curso-exame-de-acesso.jpg'
+// import img1 from '../assets/Natal-2022.jpg'
+import img2 from '../assets/banner-con.jpg'
+import img3 from '../assets/REinscrições-mestrados-banner-.jpg'
+import img4 from '../assets/RECRUTAMENTO-DOCENTES-2023-banner.jpg'
+import img5 from '../assets/-banner-exame-de-acesso-.jpg'
 import img6 from '../assets/banner-ouvidoria.jpg'
 
 
@@ -14,12 +14,25 @@ function Carrocel() {
     return (    
       <Carousel>
 
-       <Carousel.Item>
+
+        <Carousel.Item>
+          <a target="_blank" href="https://mutue.ao/register">
             <img
               className="d-block w-100"
-              src={img3}
+              src={img5}
               alt="Five slide"
             />
+          </a>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <a target="_blank" href="https://mutue.ao/register">
+              <img
+                className="d-block w-100"
+                src={img3}
+                alt="Five slide"
+              />
+          </a>
         </Carousel.Item>
 
         <Carousel.Item>
@@ -32,15 +45,7 @@ function Carrocel() {
             </Link>     
         </Carousel.Item>
 
-        {/* <Carousel.Item>
-          <a target="_blank" href="https://mutue.ao/register">
-            <img
-              className="d-block w-100"
-              src={img5}
-              alt="Five slide"
-            />
-          </a>
-        </Carousel.Item> */}
+        
 
         
 

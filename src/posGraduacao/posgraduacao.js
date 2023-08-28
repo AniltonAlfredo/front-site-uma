@@ -10,7 +10,7 @@ import ER from './Áreas de Concentração e Linhas de Pesquisa Mestrado e Plano
 import GA from './GESTÃO AMBIENTAL.pdf'
 import INFO from './INFORMATICA COMPLETO.pdf'
 import DouTeo from './Áreas de Concentração e Linhas de Pesquisa Doutorado e Plano Curricular.pdf'
-import Edital from './Edital-Pos.pdf'
+import Edital from './EDITAL @ 2023.pdf'
 import Admitidos from './LISTA DE APROVADOS PARA OS CURSOS DE MESTRADO.pdf'
 
 const PosGraduacao = () => {
